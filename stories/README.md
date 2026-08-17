@@ -6,7 +6,29 @@ One JSON file per story, plus two shared files:
 | --- | --- |
 | `index.json` | Manifest — the list of stories shown in the sidebar. A static site cannot list a directory, so each story is registered here. |
 | `_glossary.de-en.json` | Shared dictionary: function words (articles, pronouns, prepositions, numbers) plus high-frequency everyday vocabulary. Loaded for every story, so a story file only needs its own topic words. |
+| `_verbs.de-en.json` | Verbs, keyed by infinitive. Clicking any conjugated form in a story opens a present/past table plus the case the verb governs. |
 | `_template.json` | Copy this to start a new story. |
+
+## Adding a verb
+
+Regular weak verbs need two fields — the rest is derived in `js/conjugate.js`:
+
+```json
+"kaufen": { "en": "to buy", "case": "acc", "usage": "etw. kaufen" }
+```
+
+Irregular verbs add only what cannot be derived: `du`/`er` for a changed present
+stem, `praet` for a strong Präteritum stem (`praetWeak` for mixed verbs like
+denken → dachte), `part` for the participle, `aux: "sein"`, `sep` for a separable
+prefix, `refl` for a reflexive, `noGe` for a participle without *ge-*.
+
+`case` is one of `acc`, `dat`, `acc+dat`, `nom`, `prep`, `none` — this is what the
+reader sees as "takes the dative", which is the part learners get wrong with verbs
+like *helfen* and *begegnen*. Check your entries with:
+
+```sh
+npm run check -- --verbs     # prints every table in full
+```
 
 ## Adding a story
 

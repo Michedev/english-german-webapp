@@ -1,5 +1,7 @@
 /** The little translation bubble shown above a clicked word. */
 
+import { PERSONS, CASE_LABELS } from './conjugate.js';
+
 const MARGIN = 8;
 
 export function createPopover(element, { onSave, onClose }) {
@@ -84,6 +86,8 @@ function renderBody(entry, onSave, close) {
     fragment.append(list);
   }
 
+  if (entry.verb) fragment.append(renderVerb(entry.verb, entry.de));
+
   const actions = document.createElement('div');
   actions.className = 'popover__actions';
 
@@ -109,6 +113,59 @@ function renderBody(entry, onSave, close) {
 
   fragment.append(actions);
   return fragment;
+}
+
+/**
+ * Full present and past table for a verb, with the form the reader clicked
+ * highlighted so the conjugation is anchored to the sentence in front of them.
+ */
+function renderVerb(verb, clicked) {
+  const section = document.createElement('section');
+  section.className = 'verb';
+
+  const head = document.createElement('p');
+  head.className = 'verb__head';
+  head.innerHTML = `<b>${verb.infinitive}</b> <span>${verb.en}</span>`;
+  section.append(head);
+
+  const government = document.createElement('p');
+  government.className = 'verb__case';
+  government.innerHTML =
+    `<span class="verb__tag">${CASE_LABELS[verb.case] ?? verb.case}</span>` +
+    (verb.usage ? ` ${verb.usage}` : '');
+  section.append(government);
+
+  // The reader may have clicked "zieht sich leise an" while the cell reads
+  // "zieht sich an", so the finite form alone decides the highlight.
+  const wanted = clicked.toLowerCase();
+  const wantedFinite = wanted.split(' ')[0];
+  const isClicked = (form) => form.toLowerCase() === wanted || form.split(' ')[0].toLowerCase() === wantedFinite;
+
+  const table = document.createElement('table');
+  table.className = 'verb__table';
+  table.innerHTML = `<thead><tr><th></th><th>Präsens</th><th>Präteritum</th></tr></thead>`;
+
+  const body = document.createElement('tbody');
+  for (const person of PERSONS) {
+    const row = document.createElement('tr');
+    row.innerHTML = `<th>${person.label}</th>`;
+    for (const tense of ['praesens', 'praeteritum']) {
+      const cell = document.createElement('td');
+      cell.textContent = verb.tables[tense][person.key];
+      if (isClicked(verb.tables[tense][person.key])) cell.className = 'is-clicked';
+      row.append(cell);
+    }
+    body.append(row);
+  }
+  table.append(body);
+  section.append(table);
+
+  const perfect = document.createElement('p');
+  perfect.className = 'verb__perfect';
+  perfect.innerHTML = `Perfekt: <b>er ${verb.tables.perfekt}</b>`;
+  section.append(perfect);
+
+  return section;
 }
 
 function position(element, rect) {

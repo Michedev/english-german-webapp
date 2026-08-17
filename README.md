@@ -21,6 +21,7 @@ from the filesystem will not work. Any static server does, e.g. `python3 -m http
 | Action | Result |
 | --- | --- |
 | Click a word | Translation popover; a word inside a known expression selects the whole expression |
+| Click a verb | Adds a full table: present and Präteritum for all six persons, the Perfekt, and which case the verb takes. The form you clicked is highlighted |
 | Drag across words / shift-click | Look up a group of words; falls back to word-by-word if the group is not in the dictionary |
 | Click the `EN` pill, or the empty space in a line | Show/hide that sentence's translation |
 | `Translations` dropdown | `on tap` (default), `always`, `never` |

@@ -11,6 +11,8 @@
 import { readFile } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { tokenize, markPhrases, normalize } from '../js/tokenize.js';
+import { buildIndex } from '../js/verbs.js';
+import { conjugate, PERSONS, CASE_LABELS } from '../js/conjugate.js';
 
 const STORIES = join(dirname(import.meta.dirname), 'stories');
 const readJson = async (file) => JSON.parse(await readFile(join(STORIES, file), 'utf8'));
@@ -25,7 +27,31 @@ const { stories: manifest } = await readJson('index.json');
 const shared = await readJson('_glossary.de-en.json');
 const sharedWords = new Map(Object.entries(shared).map(([k, v]) => [normalize(k), v]));
 
-console.log(`Checking ${manifest.length} stories against ${sharedWords.size} shared glossary entries.\n`);
+const verbData = await readJson('_verbs.de-en.json');
+const verbEntries = Object.entries(verbData).filter(([key]) => !key.startsWith('$'));
+const verbIndex = buildIndex(verbData);
+
+for (const [infinitive, entry] of verbEntries) {
+  if (!entry.en) note('_verbs.de-en.json', `${infinitive} has no English gloss`);
+  if (!(entry.case in CASE_LABELS)) note('_verbs.de-en.json', `${infinitive} has unknown case "${entry.case}"`);
+}
+
+// `npm run check -- --verbs` prints every table for proofreading.
+if (process.argv.includes('--verbs')) {
+  for (const [infinitive, entry] of verbEntries) {
+    const table = conjugate(infinitive, entry);
+    const row = (tense) => PERSONS.map((p) => table[tense][p.key]).join(' / ');
+    console.log(`${infinitive}  —  ${entry.en}  [${CASE_LABELS[entry.case] ?? entry.case}]`);
+    console.log(`  Präsens     ${row('praesens')}`);
+    console.log(`  Präteritum  ${row('praeteritum')}`);
+    console.log(`  Perfekt     er ${table.perfekt}\n`);
+  }
+}
+
+console.log(
+  `Checking ${manifest.length} stories against ${sharedWords.size} shared glossary entries ` +
+    `and ${verbEntries.length} verbs (${verbIndex.size} forms).\n`,
+);
 
 for (const entry of manifest) {
   const story = await readJson(entry.file).catch(() => null);
@@ -55,6 +81,18 @@ for (const entry of manifest) {
       }
     }
   }
+
+  // Glossary values name the base form in brackets — "looks for (suchen)".
+  // Every infinitive quoted that way should have a conjugation table.
+  const quotedInfinitives = new Set();
+  for (const value of Object.values(story.glossary ?? {})) {
+    for (const [, inside] of String(value).matchAll(/\(([^)]*)\)/g)) {
+      const candidate = inside.split(/[—,;]/)[0].trim().replace(/^sich /, '');
+      if (/^[a-zäöüß]{3,}(?:en|eln|ern)$/.test(candidate)) quotedInfinitives.add(candidate);
+    }
+  }
+  const unknownVerbs = [...quotedInfinitives].filter((v) => !(v in verbData));
+  if (unknownVerbs.length) note(entry.file, `no conjugation table for: ${unknownVerbs.join(', ')}`);
 
   const unmatched = [...phrases.keys()].filter((key) => !matched.has(key));
   if (missing.size) note(entry.file, `no dictionary entry for: ${[...missing].join(', ')}`);

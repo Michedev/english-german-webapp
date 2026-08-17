@@ -2,6 +2,7 @@
 
 import { loadManifest, loadStory, renderLibrary } from './library.js';
 import { loadSharedGlossary, createDictionary } from './glossary.js';
+import { loadVerbs, lookupVerb } from './verbs.js';
 import { renderStory, clearSelection } from './reader.js';
 import { createPopover } from './popover.js';
 import { prefs, savedWords } from './storage.js';
@@ -43,7 +44,7 @@ async function init() {
   renderSavedWords(savedWords.all());
 
   try {
-    await loadSharedGlossary();
+    await Promise.all([loadSharedGlossary(), loadVerbs()]);
     state.manifest = await loadManifest();
   } catch (error) {
     showError(error);
@@ -90,7 +91,31 @@ function handleSelection({ surfaces, anchorRect, words }) {
       ? { ...state.dictionary.word(surfaces[0]), kind: 'word' }
       : { ...state.dictionary.selection(surfaces), kind: isPhrase ? 'phrase' : 'selection' };
 
-  popover.show({ de: surfaces.join(' '), anchorRect, ...result });
+  const verb = findVerb(surfaces);
+
+  popover.show({
+    de: surfaces.join(' '),
+    anchorRect,
+    ...result,
+    en: result.en ?? verb?.en ?? null,
+    verb,
+  });
+}
+
+/**
+ * Which verb does a selection belong to?
+ *
+ * Order matters for separable verbs: in "zieht sich leise an" the prefix sits at
+ * the end of the clause, so the finite form plus the last word ("zieht an") must
+ * be tried before the bare "zieht" — otherwise anziehen (to get dressed) is
+ * reported as ziehen (to pull).
+ */
+function findVerb(surfaces) {
+  const candidates = [surfaces.join(' ')];
+  if (surfaces.length > 1) candidates.push(`${surfaces[0]} ${surfaces.at(-1)}`);
+  candidates.push(...surfaces);
+
+  return candidates.map(lookupVerb).find(Boolean) ?? null;
 }
 
 /* ---------- preferences & chrome ---------- */
@@ -132,6 +157,14 @@ function bindControls() {
   dom.scrim.addEventListener('click', closeSidebar);
 
   dom.clearSaved.addEventListener('click', () => renderSavedWords(savedWords.clear()));
+
+  // Deep links and the browser's back button change only the fragment.
+  window.addEventListener('hashchange', () => {
+    const id = location.hash.slice(1);
+    if (!id || id === state.story?.id) return;
+    const entry = state.manifest.find((item) => item.id === id);
+    if (entry) openStory(entry);
+  });
 }
 
 function closeSidebar() {
