@@ -1,6 +1,6 @@
 # Lesezeit
 
-A Readle-style reader for German: the story is shown sentence by sentence with the
+A learner helper for German: the story is shown sentence by sentence with the
 English translation underneath, and any word — or group of words — can be clicked
 for its meaning.
 
