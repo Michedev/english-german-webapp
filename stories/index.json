@@ -1,0 +1,53 @@
+{
+  "$comment": "Manifest of the story folder. Add one entry per story file; the reader lists them in this order.",
+  "stories": [
+    {
+      "id": "der-hund-im-park",
+      "file": "der-hund-im-park.json",
+      "title": "Der Hund im Park",
+      "level": "A1",
+      "minutes": 2,
+      "summary": "Tim finds a dog without an owner on a Saturday morning."
+    },
+    {
+      "id": "der-verlorene-schluessel",
+      "file": "der-verlorene-schluessel.json",
+      "title": "Der verlorene Schlüssel",
+      "level": "A2",
+      "minutes": 2,
+      "summary": "Lena is late for work and her key has vanished."
+    },
+    {
+      "id": "die-falsche-fahrkarte",
+      "file": "die-falsche-fahrkarte.json",
+      "title": "Die falsche Fahrkarte",
+      "level": "A2",
+      "minutes": 2,
+      "summary": "Marek's ticket to Hamburg is valid — but for the wrong day."
+    },
+    {
+      "id": "der-zettel-im-buch",
+      "file": "der-zettel-im-buch.json",
+      "title": "Der Zettel im Buch",
+      "level": "B1",
+      "minutes": 3,
+      "summary": "A note from 1974 falls out of a second-hand book."
+    },
+    {
+      "id": "nachtschicht-in-der-baeckerei",
+      "file": "nachtschicht-in-der-baeckerei.json",
+      "title": "Nachtschicht in der Bäckerei",
+      "level": "B1",
+      "minutes": 3,
+      "summary": "Yusuf's working day starts at half past two in the morning."
+    },
+    {
+      "id": "das-angebot",
+      "file": "das-angebot.json",
+      "title": "Das Angebot",
+      "level": "B2",
+      "minutes": 4,
+      "summary": "A job in Leipzig, a flat with a balcony, and three days of deciding."
+    }
+  ]
+}

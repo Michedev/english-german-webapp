@@ -1,0 +1,91 @@
+{
+  "id": "der-hund-im-park",
+  "title": "Der Hund im Park",
+  "titleEn": "The Dog in the Park",
+  "level": "A1",
+  "minutes": 2,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Tim geht am Samstag in den Park.", "en": "Tim goes to the park on Saturday." },
+        { "de": "Die Sonne scheint, und viele Kinder spielen dort.", "en": "The sun is shining, and many children are playing there." },
+        { "de": "Tim setzt sich auf eine Bank und isst ein Brötchen.", "en": "Tim sits down on a bench and eats a bread roll." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Plötzlich kommt ein kleiner Hund zu ihm.", "en": "Suddenly a small dog comes up to him." },
+        { "de": "Der Hund ist braun und hat keine Leine.", "en": "The dog is brown and has no lead." },
+        { "de": "„Hallo, wo ist dein Herrchen?“, fragt Tim.", "en": "\"Hello, where is your owner?\" Tim asks." },
+        { "de": "Der Hund sagt natürlich nichts, aber er wedelt mit dem Schwanz.", "en": "Of course the dog says nothing, but he wags his tail." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Tim gibt ihm ein Stück von seinem Brötchen.", "en": "Tim gives him a piece of his bread roll." },
+        { "de": "Dann liest er den Namen auf dem Halsband: Rocky.", "en": "Then he reads the name on the collar: Rocky." },
+        { "de": "Unter dem Namen steht eine Telefonnummer.", "en": "Below the name there is a phone number." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Tim ruft an, und nach zehn Minuten kommt eine Frau.", "en": "Tim calls, and ten minutes later a woman arrives." },
+        { "de": "„Rocky! Da bist du ja!“, ruft sie glücklich.", "en": "\"Rocky! There you are!\" she calls happily." },
+        { "de": "Tim ist stolz, denn heute hat er geholfen.", "en": "Tim is proud, because today he has helped." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "am Samstag", "en": "on Saturday" },
+    { "de": "setzt sich", "en": "sits down", "note": "Reflexive verb: sich setzen." },
+    { "de": "wedelt mit dem Schwanz", "en": "wags its tail" },
+    { "de": "ein Stück von", "en": "a piece of" },
+    { "de": "ruft an", "en": "calls, phones", "note": "Separable verb: anrufen — the prefix an goes to the end." },
+    { "de": "Da bist du ja", "en": "There you are!", "note": "ja here adds relief or surprise, it does not mean \"yes\"." }
+  ],
+
+  "glossary": {
+    "Tim": "Tim (first name)",
+    "Samstag": "Saturday",
+    "Park": "park",
+    "Sonne": "sun",
+    "scheint": "shines (scheinen)",
+    "viele": "many",
+    "Kinder": "children (das Kind)",
+    "spielen": "to play, are playing",
+    "setzt": "sets, puts; sits (setzen)",
+    "Bank": "bench; bank",
+    "isst": "eats (essen)",
+    "Brötchen": "bread roll",
+    "Plötzlich": "suddenly",
+    "kleiner": "small (kleiner Hund — masculine nominative)",
+    "Hund": "dog",
+    "braun": "brown",
+    "keine": "no, not any (feminine)",
+    "Leine": "lead, leash",
+    "Hallo": "hello",
+    "Herrchen": "owner (of a dog), master",
+    "fragt": "asks (fragen)",
+    "natürlich": "of course; natural",
+    "wedelt": "wags (wedeln)",
+    "Schwanz": "tail",
+    "gibt": "gives (geben)",
+    "Stück": "piece",
+    "seinem": "his (dative)",
+    "liest": "reads (lesen)",
+    "Namen": "name (der Name)",
+    "Halsband": "collar",
+    "Rocky": "Rocky (dog's name)",
+    "steht": "stands; is written (stehen)",
+    "Telefonnummer": "telephone number",
+    "ruft": "calls, shouts (rufen)",
+    "Minuten": "minutes (die Minute)",
+    "Frau": "woman; wife; Mrs",
+    "glücklich": "happy, happily",
+    "stolz": "proud",
+    "geholfen": "helped (helfen — past participle)"
+  }
+}

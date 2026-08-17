@@ -1,0 +1,32 @@
+{
+  "id": "my-story-id",
+  "title": "Der Titel auf Deutsch",
+  "titleEn": "The title in English",
+  "level": "A2",
+  "minutes": 3,
+  "author": "",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Erster deutscher Satz.", "en": "First German sentence." },
+        { "de": "Zweiter Satz.", "en": "Second sentence." }
+      ]
+    },
+    {
+      "sentences": [{ "de": "Neuer Absatz.", "en": "New paragraph." }]
+    }
+  ],
+
+  "phrases": [
+    {
+      "de": "surface form as it appears in the text",
+      "en": "meaning of the whole expression",
+      "note": "optional hint, e.g. the infinitive form"
+    }
+  ],
+
+  "glossary": {
+    "Wort": "word — write the form used in the text, put the infinitive/singular in brackets"
+  }
+}

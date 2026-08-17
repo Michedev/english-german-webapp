@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lesezeit — German reader with English translations</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>📖</text></svg>" />
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn topbar__menu" id="menu-btn" aria-label="Toggle library" aria-expanded="false">☰</button>
+    <h1 class="brand">Lesezeit</h1>
+
+    <div class="topbar__controls">
+      <label class="control">
+        <span class="control__label">Translations</span>
+        <select id="translation-mode">
+          <option value="tap">on tap</option>
+          <option value="always">always</option>
+          <option value="never">never</option>
+        </select>
+      </label>
+
+      <div class="control control--group" role="group" aria-label="Text size">
+        <button class="icon-btn" id="font-smaller" aria-label="Smaller text">A−</button>
+        <button class="icon-btn" id="font-larger" aria-label="Larger text">A+</button>
+      </div>
+
+      <button class="icon-btn" id="theme-btn" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <section class="panel">
+        <h2 class="panel__title">Stories</h2>
+        <ul class="story-list" id="story-list"></ul>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel__title">
+          Word list
+          <span class="panel__count" id="saved-count">0</span>
+        </h2>
+        <ul class="saved-list" id="saved-list"></ul>
+        <button class="text-btn" id="clear-saved" hidden>Clear word list</button>
+      </section>
+    </aside>
+
+    <main class="reader" id="reader" aria-live="polite">
+      <p class="placeholder">Loading…</p>
+    </main>
+  </div>
+
+  <!-- Moved to the end of the reading column by app.js after every render. -->
+  <footer class="site-footer">
+    <p>
+      Made with AI, might contains errors
+    </p>
+  </footer>
+
+  <div class="popover" id="popover" role="dialog" aria-label="Translation" hidden></div>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

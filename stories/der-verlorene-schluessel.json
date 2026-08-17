@@ -1,0 +1,144 @@
+{
+  "id": "der-verlorene-schluessel",
+  "title": "Der verlorene Schlüssel",
+  "titleEn": "The Lost Key",
+  "level": "A2",
+  "minutes": 2,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        {
+          "de": "Es ist Montagmorgen, und Lena hat es eilig.",
+          "en": "It is Monday morning, and Lena is in a hurry."
+        },
+        {
+          "de": "Sie trinkt ihren Kaffee im Stehen und sucht ihre Jacke.",
+          "en": "She drinks her coffee standing up and looks for her jacket."
+        },
+        {
+          "de": "Um neun Uhr beginnt ihre Arbeit im Buchladen.",
+          "en": "Her work at the bookshop starts at nine o'clock."
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "de": "Vor der Tür greift sie in ihre Tasche, aber der Schlüssel ist weg.",
+          "en": "In front of the door she reaches into her bag, but the key is gone."
+        },
+        {
+          "de": "Sie sucht überall: in der Küche, im Bad, unter dem Sofa.",
+          "en": "She looks everywhere: in the kitchen, in the bathroom, under the sofa."
+        },
+        {
+          "de": "Nichts.",
+          "en": "Nothing."
+        },
+        {
+          "de": "Langsam wird sie nervös, denn es ist schon Viertel vor neun.",
+          "en": "She is slowly getting nervous, because it is already a quarter to nine."
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "de": "Da klingelt ihr Handy.",
+          "en": "Then her mobile phone rings."
+        },
+        {
+          "de": "Es ist Herr Baumann, ihr Nachbar aus dem Erdgeschoss.",
+          "en": "It is Mr Baumann, her neighbour from the ground floor."
+        },
+        {
+          "de": "„Guten Morgen, Lena“, sagt er, „dein Schlüssel steckt von außen in der Tür.“",
+          "en": "\"Good morning, Lena,\" he says, \"your key is stuck in the door from the outside.\""
+        }
+      ]
+    },
+    {
+      "sentences": [
+        {
+          "de": "Lena lacht und atmet tief durch.",
+          "en": "Lena laughs and takes a deep breath."
+        },
+        {
+          "de": "Sie nimmt den Schlüssel, steckt ihn in die Jackentasche und läuft zur Bushaltestelle.",
+          "en": "She takes the key, puts it in her jacket pocket and runs to the bus stop."
+        },
+        {
+          "de": "Heute kommt sie doch noch pünktlich zur Arbeit.",
+          "en": "Today she gets to work on time after all."
+        }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "hat es eilig", "en": "is in a hurry", "note": "Infinitive: es eilig haben — literally \"to have it hurried\"." },
+    { "de": "im Stehen", "en": "standing up, while standing" },
+    { "de": "Um neun Uhr", "en": "at nine o'clock" },
+    { "de": "ist weg", "en": "is gone, has disappeared" },
+    { "de": "Viertel vor neun", "en": "a quarter to nine" },
+    { "de": "Guten Morgen", "en": "good morning" },
+    { "de": "von außen", "en": "from the outside" },
+    { "de": "atmet tief durch", "en": "takes a deep breath", "note": "Separable verb: tief durchatmen." },
+    { "de": "doch noch", "en": "after all, in the end" },
+    { "de": "zur Arbeit", "en": "to work" }
+  ],
+
+  "glossary": {
+    "Montagmorgen": "Monday morning",
+    "Lena": "Lena (first name)",
+    "eilig": "hurried, urgent",
+    "trinkt": "drinks (trinken)",
+    "Kaffee": "coffee",
+    "Stehen": "standing (noun from stehen — to stand)",
+    "sucht": "looks for, searches (suchen)",
+    "Jacke": "jacket",
+    "neun": "nine",
+    "Uhr": "o'clock; clock, watch",
+    "beginnt": "begins, starts (beginnen)",
+    "Arbeit": "work, job",
+    "Buchladen": "bookshop",
+    "Tür": "door",
+    "greift": "reaches, grabs (greifen)",
+    "Tasche": "bag; pocket",
+    "Schlüssel": "key",
+    "weg": "away, gone",
+    "überall": "everywhere",
+    "Küche": "kitchen",
+    "Bad": "bathroom",
+    "Sofa": "sofa, couch",
+    "Nichts": "nothing",
+    "Langsam": "slowly; slow",
+    "nervös": "nervous",
+    "Viertel": "quarter",
+    "klingelt": "rings (klingeln)",
+    "Handy": "mobile phone",
+    "Herr": "Mr; gentleman",
+    "Baumann": "Baumann (surname)",
+    "Nachbar": "neighbour",
+    "Erdgeschoss": "ground floor",
+    "Guten": "good (accusative of gut)",
+    "Morgen": "morning",
+    "sagt": "says (sagen)",
+    "dein": "your (informal)",
+    "steckt": "is stuck, sits in; puts (stecken)",
+    "außen": "outside, on the outside",
+    "lacht": "laughs (lachen)",
+    "atmet": "breathes (atmen)",
+    "tief": "deep, deeply",
+    "durch": "through; here part of durchatmen",
+    "nimmt": "takes (nehmen)",
+    "Jackentasche": "jacket pocket",
+    "läuft": "runs, walks (laufen)",
+    "Bushaltestelle": "bus stop",
+    "Heute": "today",
+    "kommt": "comes, arrives (kommen)",
+    "pünktlich": "on time, punctual"
+  }
+}

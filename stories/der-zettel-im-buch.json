@@ -1,0 +1,108 @@
+{
+  "id": "der-zettel-im-buch",
+  "title": "Der Zettel im Buch",
+  "titleEn": "The Note in the Book",
+  "level": "B1",
+  "minutes": 3,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "In der kleinen Buchhandlung in der Nebenstraße riecht es nach Staub und Kaffee.", "en": "In the small bookshop on the side street it smells of dust and coffee." },
+        { "de": "Sofia sucht seit einer Woche nach einem Geschenk für ihren Vater.", "en": "Sofia has been looking for a present for her father for a week." },
+        { "de": "Zwischen den gebrauchten Büchern findet sie einen alten Gedichtband.", "en": "Among the second-hand books she finds an old volume of poetry." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Als sie ihn aufschlägt, fällt ein vergilbter Zettel heraus.", "en": "When she opens it, a yellowed note falls out." },
+        { "de": "Jemand hat mit blauer Tinte geschrieben: „Für M., damit du mich nicht vergisst. 1974.“", "en": "Someone wrote in blue ink: \"For M., so that you don't forget me. 1974.\"" },
+        { "de": "Sofia dreht den Zettel um, aber auf der Rückseite steht nichts.", "en": "Sofia turns the note over, but there is nothing on the back." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Sie fragt den Verkäufer, woher das Buch stammt.", "en": "She asks the shop assistant where the book comes from." },
+        { "de": "Er zuckt mit den Schultern und meint, es sei aus einem Nachlass.", "en": "He shrugs and says it is from a deceased person's estate." },
+        { "de": "„Solche Zettel finde ich ständig“, sagt er. „Manche Leute benutzen alles als Lesezeichen.“", "en": "\"I find notes like that all the time,\" he says. \"Some people use anything as a bookmark.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Sofia kauft das Buch trotzdem und legt den Zettel zurück auf seine Seite.", "en": "Sofia buys the book anyway and puts the note back on its page." },
+        { "de": "Vielleicht hat M. das Gedicht nie gelesen.", "en": "Perhaps M. never read the poem." },
+        { "de": "Vielleicht aber doch — und dann hat der Zettel seine Arbeit längst getan.", "en": "But perhaps she did — and in that case the note did its job long ago." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "riecht es nach", "en": "it smells of", "note": "Impersonal: es riecht nach + dative." },
+    { "de": "sucht seit einer Woche nach", "en": "has been looking for a week for", "note": "suchen nach + dative; with seit German uses the present tense where English says \"has been ...ing\"." },
+    { "de": "fällt ein vergilbter Zettel heraus", "en": "a yellowed note falls out", "note": "Separable verb: herausfallen." },
+    { "de": "dreht den Zettel um", "en": "turns the note over", "note": "Separable verb: umdrehen." },
+    { "de": "zuckt mit den Schultern", "en": "shrugs (his shoulders)" },
+    { "de": "es sei", "en": "it is (reportedly)", "note": "Konjunktiv I of sein — marks reported speech: he says it is." },
+    { "de": "Vielleicht aber doch", "en": "but perhaps she did after all" },
+    { "de": "seine Arbeit längst getan", "en": "did its job long ago" }
+  ],
+
+  "glossary": {
+    "kleinen": "small (klein)",
+    "Buchhandlung": "bookshop",
+    "Nebenstraße": "side street",
+    "riecht": "smells (riechen)",
+    "Staub": "dust",
+    "Sofia": "Sofia (first name)",
+    "Woche": "week",
+    "Geschenk": "present, gift",
+    "Vater": "father",
+    "gebrauchten": "used, second-hand (gebraucht)",
+    "Büchern": "books (das Buch, dative plural)",
+    "Buch": "book",
+    "findet": "finds (finden)",
+    "alten": "old (alt)",
+    "Gedichtband": "volume of poetry",
+    "Als": "when (single event in the past)",
+    "aufschlägt": "opens (a book) — aufschlagen",
+    "fällt": "falls (fallen)",
+    "vergilbter": "yellowed (vergilbt)",
+    "Zettel": "note, slip of paper",
+    "heraus": "out (separable prefix)",
+    "Jemand": "someone",
+    "blauer": "blue (blau)",
+    "Tinte": "ink",
+    "geschrieben": "written (schreiben)",
+    "damit": "so that, in order that",
+    "vergisst": "forget (vergessen)",
+    "dreht": "turns (drehen)",
+    "Rückseite": "back, reverse side",
+    "Verkäufer": "shop assistant, salesman",
+    "woher": "where ... from",
+    "stammt": "comes from, originates (stammen)",
+    "zuckt": "twitches, shrugs (zucken)",
+    "Schultern": "shoulders (die Schulter)",
+    "meint": "says, thinks, means (meinen)",
+    "sei": "is (Konjunktiv I of sein — reported speech)",
+    "Nachlass": "estate, belongings left by someone who died",
+    "Solche": "such, that kind of",
+    "finde": "find (finden)",
+    "ständig": "constantly, all the time",
+    "Manche": "some",
+    "Leute": "people",
+    "benutzen": "to use",
+    "alles": "everything, anything",
+    "Lesezeichen": "bookmark",
+    "kauft": "buys (kaufen)",
+    "trotzdem": "nevertheless, anyway",
+    "legt": "lays, puts (legen)",
+    "Seite": "page; side",
+    "Vielleicht": "perhaps, maybe",
+    "Gedicht": "poem",
+    "nie": "never",
+    "gelesen": "read (lesen — past participle)",
+    "längst": "long ago, long since",
+    "getan": "done (tun)"
+  }
+}

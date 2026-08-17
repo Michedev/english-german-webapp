@@ -1,0 +1,129 @@
+{
+  "id": "das-angebot",
+  "title": "Das Angebot",
+  "titleEn": "The Offer",
+  "level": "B2",
+  "minutes": 4,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Die E-Mail kam an einem Dienstagnachmittag, zwischen zwei Besprechungen, und veränderte alles.", "en": "The email arrived on a Tuesday afternoon, between two meetings, and changed everything." },
+        { "de": "Ein Verlag in Leipzig bot Hanna eine Stelle an, von der sie vor fünf Jahren noch geträumt hätte.", "en": "A publishing house in Leipzig offered Hanna a job that five years earlier she would still have dreamed of." },
+        { "de": "Inzwischen aber hatte sie eine Wohnung mit Balkon, einen Freundeskreis und einen Hund, der Umzüge hasste.", "en": "By now, though, she had a flat with a balcony, a circle of friends and a dog that hated moving house." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Drei Tage lang wog sie ab, ohne mit jemandem darüber zu sprechen.", "en": "For three days she weighed it up without talking to anyone about it." },
+        { "de": "Wenn sie ablehnte, würde sie sich vermutlich jahrelang fragen, was gewesen wäre.", "en": "If she turned it down, she would probably spend years wondering what might have been." },
+        { "de": "Wenn sie zusagte, müsste sie ein Leben aufgeben, das sie sich mühsam aufgebaut hatte.", "en": "If she accepted, she would have to give up a life she had built up with great effort." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Am Freitag rief ihre Schwester an, ohne zu ahnen, wie gelegen sie kam.", "en": "On Friday her sister called, with no idea how perfectly timed the call was." },
+        { "de": "„Du redest seit zehn Minuten über Kartons“, sagte sie irgendwann.", "en": "\"You've been talking about cardboard boxes for ten minutes,\" she said at some point." },
+        { "de": "„Du hast dich doch längst entschieden.“", "en": "\"You made up your mind long ago.\"" },
+        { "de": "Hanna schwieg und merkte, dass ihre Schwester recht hatte.", "en": "Hanna fell silent and realised that her sister was right." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Die Zusage wurde noch am selben Abend geschrieben und erst am nächsten Morgen abgeschickt — für alle Fälle.", "en": "The acceptance was written that same evening and only sent the next morning — just in case." },
+        { "de": "Der Hund gewöhnte sich schneller an Leipzig als Hanna selbst.", "en": "The dog got used to Leipzig faster than Hanna herself did." },
+        { "de": "Aber das, sagt sie heute, sei bei Hunden ja immer so.", "en": "But that, she says today, is always the way with dogs." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "bot Hanna eine Stelle an", "en": "offered Hanna a job", "note": "Separable verb: anbieten." },
+    { "de": "vor fünf Jahren", "en": "five years ago", "note": "vor + dative in a time expression = ago." },
+    { "de": "geträumt hätte", "en": "would have dreamed", "note": "Konjunktiv II in the past: hätte + participle — an unreal situation." },
+    { "de": "Drei Tage lang", "en": "for three days", "note": "lang after a period of time = for that long." },
+    { "de": "wog sie ab", "en": "she weighed it up", "note": "Separable verb: abwägen, past tense wog ab." },
+    { "de": "ohne mit jemandem darüber zu sprechen", "en": "without talking to anyone about it", "note": "ohne ... zu + infinitive = without doing something." },
+    { "de": "was gewesen wäre", "en": "what might have been" },
+    { "de": "rief ihre Schwester an", "en": "her sister called", "note": "Separable verb: anrufen, past tense rief an." },
+    { "de": "ohne zu ahnen", "en": "without suspecting" },
+    { "de": "wie gelegen sie kam", "en": "how convenient her timing was", "note": "gelegen kommen = to come at a convenient moment." },
+    { "de": "hast dich doch längst entschieden", "en": "made up your mind long ago", "note": "sich entscheiden = to decide; doch adds \"we both know it\"." },
+    { "de": "recht hatte", "en": "was right", "note": "recht haben = to be right." },
+    { "de": "wurde noch am selben Abend geschrieben", "en": "was written that same evening", "note": "Passive: werden + past participle." },
+    { "de": "für alle Fälle", "en": "just in case" },
+    { "de": "gewöhnte sich schneller an", "en": "got used to ... faster", "note": "sich an etwas gewöhnen = to get used to something." },
+    { "de": "sei bei Hunden ja immer so", "en": "is apparently always like that with dogs", "note": "sei = Konjunktiv I, she is quoting herself; ja = as everyone knows." }
+  ],
+
+  "glossary": {
+    "Angebot": "offer",
+    "E-Mail": "email",
+    "kam": "came, arrived (kommen)",
+    "Dienstagnachmittag": "Tuesday afternoon",
+    "Besprechungen": "meetings (die Besprechung)",
+    "veränderte": "changed (verändern)",
+    "Verlag": "publishing house",
+    "Leipzig": "Leipzig (city in eastern Germany)",
+    "bot": "offered (bieten / anbieten)",
+    "Hanna": "Hanna (first name)",
+    "Stelle": "position, job; place",
+    "Jahren": "years (das Jahr)",
+    "geträumt": "dreamed (träumen)",
+    "hätte": "would have (Konjunktiv II of haben)",
+    "Inzwischen": "in the meantime, by now",
+    "Wohnung": "flat, apartment",
+    "Balkon": "balcony",
+    "Freundeskreis": "circle of friends",
+    "Umzüge": "house moves (der Umzug)",
+    "hasste": "hated (hassen)",
+    "Tage": "days (der Tag)",
+    "lang": "long; for (a period of time)",
+    "wog": "weighed (wiegen / abwägen)",
+    "ab": "separable prefix of abwägen — to weigh up",
+    "ohne": "without",
+    "jemandem": "anyone, someone (dative)",
+    "darüber": "about it",
+    "sprechen": "to speak, to talk",
+    "ablehnte": "turned down, refused (ablehnen)",
+    "würde": "would (Konjunktiv II of werden)",
+    "vermutlich": "probably, presumably",
+    "jahrelang": "for years",
+    "gewesen": "been (sein — past participle)",
+    "wäre": "would be (Konjunktiv II of sein)",
+    "zusagte": "accepted, said yes (zusagen)",
+    "müsste": "would have to (Konjunktiv II of müssen)",
+    "Leben": "life",
+    "aufgeben": "to give up",
+    "mühsam": "laboriously, with effort",
+    "aufgebaut": "built up (aufbauen)",
+    "Freitag": "Friday",
+    "rief": "called (rufen / anrufen)",
+    "Schwester": "sister",
+    "ahnen": "to suspect, to have an idea",
+    "gelegen": "convenient, at the right moment",
+    "redest": "are talking (reden)",
+    "Kartons": "cardboard boxes (der Karton)",
+    "sagte": "said (sagen)",
+    "irgendwann": "at some point",
+    "entschieden": "decided (sich entscheiden)",
+    "schwieg": "fell silent, said nothing (schweigen)",
+    "merkte": "noticed, realised (merken)",
+    "recht": "right",
+    "hatte": "had (haben)",
+    "Zusage": "acceptance, confirmation",
+    "wurde": "was, became (werden — here forming the passive)",
+    "selben": "same (derselbe)",
+    "Abend": "evening",
+    "geschrieben": "written (schreiben)",
+    "erst": "only, not until",
+    "nächsten": "next (nächste)",
+    "abgeschickt": "sent off (abschicken)",
+    "Fälle": "cases (der Fall)",
+    "gewöhnte": "got used to (sich gewöhnen an)",
+    "schneller": "faster (schnell)",
+    "selbst": "herself, himself; even",
+    "Hunden": "dogs (der Hund, dative plural)"
+  }
+}

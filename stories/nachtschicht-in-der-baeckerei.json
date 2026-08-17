@@ -1,0 +1,121 @@
+{
+  "id": "nachtschicht-in-der-baeckerei",
+  "title": "Nachtschicht in der Bäckerei",
+  "titleEn": "Night Shift at the Bakery",
+  "level": "B1",
+  "minutes": 3,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Um halb drei klingelt Yusufs Wecker, und die Stadt schläft noch.", "en": "At half past two Yusuf's alarm clock rings, and the city is still asleep." },
+        { "de": "Er zieht sich leise an, damit seine Tochter nicht aufwacht.", "en": "He gets dressed quietly so that his daughter doesn't wake up." },
+        { "de": "Auf dem Weg zur Bäckerei begegnet ihm niemand außer einer Katze.", "en": "On the way to the bakery he meets nobody except a cat." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "In der Backstube ist es warm, und der Ofen brummt schon seit Stunden.", "en": "In the bakery workshop it is warm, and the oven has been humming for hours." },
+        { "de": "Yusuf knetet den Teig, formt die Brötchen und schiebt die Bleche in den Ofen.", "en": "Yusuf kneads the dough, shapes the rolls and pushes the trays into the oven." },
+        { "de": "Dabei hört er Radio, aber leise, denn er denkt gern nach.", "en": "While he works he listens to the radio, but quietly, because he likes to think." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Gegen fünf öffnet er die Tür zum Laden.", "en": "Around five he opens the door to the shop." },
+        { "de": "Die ersten Kunden sind immer dieselben: eine Krankenschwester nach der Nachtschicht, ein Taxifahrer, ein Student, der noch nicht geschlafen hat.", "en": "The first customers are always the same: a nurse after her night shift, a taxi driver, a student who hasn't slept yet." },
+        { "de": "Yusuf kennt ihre Bestellungen auswendig und legt sie auf den Tresen, bevor jemand etwas sagt.", "en": "Yusuf knows their orders by heart and puts them on the counter before anyone says a word." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Wenn er um zwölf nach Hause geht, riecht seine Jacke nach Brot.", "en": "When he goes home at twelve, his jacket smells of bread." },
+        { "de": "Seine Tochter kommt aus der Schule und umarmt ihn.", "en": "His daughter comes back from school and hugs him." },
+        { "de": "„Du riechst wie ein Frühstück“, sagt sie jedes Mal, und jedes Mal muss er lachen.", "en": "\"You smell like a breakfast,\" she says every time, and every time it makes him laugh." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "Um halb drei", "en": "at half past two", "note": "Careful: halb drei is 2:30 — German counts towards the coming hour." },
+    { "de": "zieht sich leise an", "en": "gets dressed quietly", "note": "Separable reflexive verb: sich anziehen." },
+    { "de": "Auf dem Weg", "en": "on the way" },
+    { "de": "seit Stunden", "en": "for hours" },
+    { "de": "denkt gern nach", "en": "likes to think, likes reflecting", "note": "Separable verb nachdenken; gern = to like doing something." },
+    { "de": "Gegen fünf", "en": "around five o'clock", "note": "gegen + a time = approximately." },
+    { "de": "nach der Nachtschicht", "en": "after the night shift" },
+    { "de": "kennt ihre Bestellungen auswendig", "en": "knows their orders by heart" },
+    { "de": "nach Hause", "en": "home (direction)", "note": "zu Hause = at home; nach Hause = going home." },
+    { "de": "riecht seine Jacke nach Brot", "en": "his jacket smells of bread", "note": "riechen nach + dative." },
+    { "de": "jedes Mal", "en": "every time" },
+    { "de": "muss er lachen", "en": "he can't help laughing", "note": "Literally \"he must laugh\"." }
+  ],
+
+  "glossary": {
+    "halb": "half",
+    "drei": "three",
+    "klingelt": "rings (klingeln)",
+    "Yusufs": "Yusuf's (first name + genitive s)",
+    "Yusuf": "Yusuf (first name)",
+    "Wecker": "alarm clock",
+    "Stadt": "city, town",
+    "schläft": "sleeps (schlafen)",
+    "zieht": "pulls; here: puts on (ziehen / anziehen)",
+    "leise": "quiet, quietly",
+    "damit": "so that, in order that",
+    "Tochter": "daughter",
+    "aufwacht": "wakes up (aufwachen)",
+    "Weg": "way, path",
+    "Bäckerei": "bakery",
+    "begegnet": "meets, comes across (begegnen + dative)",
+    "niemand": "nobody",
+    "außer": "except, apart from",
+    "Katze": "cat",
+    "Backstube": "bakery workshop, back room where the baking is done",
+    "warm": "warm",
+    "Ofen": "oven",
+    "brummt": "hums, drones (brummen)",
+    "Stunden": "hours (die Stunde)",
+    "knetet": "kneads (kneten)",
+    "Teig": "dough",
+    "formt": "shapes, forms (formen)",
+    "Brötchen": "bread rolls",
+    "schiebt": "pushes, slides (schieben)",
+    "Bleche": "baking trays (das Blech)",
+    "Dabei": "while doing so, at the same time",
+    "hört": "hears, listens to (hören)",
+    "Radio": "radio",
+    "denkt": "thinks (denken)",
+    "gern": "gladly, willingly — with a verb: to like doing something",
+    "nach": "after; to; here: separable prefix of nachdenken",
+    "Gegen": "around, towards; against",
+    "fünf": "five",
+    "öffnet": "opens (öffnen)",
+    "Laden": "shop",
+    "ersten": "first (erste)",
+    "Kunden": "customers (der Kunde)",
+    "dieselben": "the same ones",
+    "Krankenschwester": "nurse",
+    "Nachtschicht": "night shift",
+    "Taxifahrer": "taxi driver",
+    "Student": "student",
+    "geschlafen": "slept (schlafen)",
+    "kennt": "knows, is familiar with (kennen)",
+    "Bestellungen": "orders (die Bestellung)",
+    "auswendig": "by heart, from memory",
+    "Tresen": "counter",
+    "bevor": "before (conjunction)",
+    "etwas": "something, anything",
+    "zwölf": "twelve",
+    "Hause": "home (in the phrases nach Hause / zu Hause)",
+    "Jacke": "jacket",
+    "Brot": "bread",
+    "Schule": "school",
+    "umarmt": "hugs, embraces (umarmen)",
+    "riechst": "smell (riechen — you smell of something)",
+    "Frühstück": "breakfast",
+    "Mal": "time, occasion",
+    "lachen": "to laugh"
+  }
+}

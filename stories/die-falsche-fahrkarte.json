@@ -1,0 +1,94 @@
+{
+  "id": "die-falsche-fahrkarte",
+  "title": "Die falsche Fahrkarte",
+  "titleEn": "The Wrong Ticket",
+  "level": "A2",
+  "minutes": 2,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Marek steht am Automaten im Bahnhof und drückt auf die Knöpfe.", "en": "Marek is standing at the machine in the station, pressing the buttons." },
+        { "de": "Er fährt zum ersten Mal allein nach Hamburg.", "en": "He is travelling to Hamburg alone for the first time." },
+        { "de": "Der Automat gibt ihm eine Fahrkarte und drei Euro zurück.", "en": "The machine gives him a ticket and three euros in change." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Im Zug macht er es sich bequem und schaut aus dem Fenster.", "en": "On the train he makes himself comfortable and looks out of the window." },
+        { "de": "Nach einer halben Stunde kommt der Schaffner.", "en": "After half an hour the conductor comes." },
+        { "de": "„Ihre Fahrkarte, bitte.“", "en": "\"Your ticket, please.\"" },
+        { "de": "Marek gibt sie ihm, und der Schaffner runzelt die Stirn.", "en": "Marek hands it to him, and the conductor frowns." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "„Diese Karte gilt für morgen, nicht für heute.“", "en": "\"This ticket is valid for tomorrow, not for today.\"" },
+        { "de": "Marek wird rot.", "en": "Marek turns red." },
+        { "de": "Am Automaten hat er das falsche Datum gewählt.", "en": "He selected the wrong date at the machine." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Zum Glück ist der Schaffner freundlich.", "en": "Luckily the conductor is friendly." },
+        { "de": "Er ändert die Karte auf seinem Gerät und lächelt.", "en": "He changes the ticket on his device and smiles." },
+        { "de": "„Das passiert hier jeden Tag“, sagt er. „Gute Reise!“", "en": "\"That happens here every day,\" he says. \"Have a good trip!\"" }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "zum ersten Mal", "en": "for the first time" },
+    { "de": "gibt ihm eine Fahrkarte und drei Euro zurück", "en": "gives him back a ticket and three euros", "note": "Separable verb zurückgeben — zurück sits at the end of the clause." },
+    { "de": "macht er es sich bequem", "en": "he makes himself comfortable", "note": "Infinitive: es sich bequem machen." },
+    { "de": "Nach einer halben Stunde", "en": "after half an hour" },
+    { "de": "runzelt die Stirn", "en": "frowns", "note": "Literally \"wrinkles the forehead\"." },
+    { "de": "wird rot", "en": "turns red, blushes" },
+    { "de": "Zum Glück", "en": "luckily, fortunately" },
+    { "de": "jeden Tag", "en": "every day" },
+    { "de": "Gute Reise", "en": "have a good trip" }
+  ],
+
+  "glossary": {
+    "Marek": "Marek (first name)",
+    "Automaten": "machine (der Automat — ticket machine)",
+    "Automat": "machine, ticket machine",
+    "Bahnhof": "station",
+    "drückt": "presses (drücken)",
+    "Knöpfe": "buttons (der Knopf)",
+    "fährt": "travels, goes, drives (fahren)",
+    "Mal": "time, occasion",
+    "allein": "alone",
+    "Hamburg": "Hamburg (city in northern Germany)",
+    "Fahrkarte": "ticket",
+    "Euro": "euro(s)",
+    "zurück": "back",
+    "Zug": "train",
+    "bequem": "comfortable, comfortably",
+    "schaut": "looks (schauen)",
+    "Fenster": "window",
+    "halben": "half (halb)",
+    "Stunde": "hour",
+    "Schaffner": "ticket inspector, conductor",
+    "bitte": "please",
+    "runzelt": "wrinkles (runzeln)",
+    "Stirn": "forehead",
+    "Diese": "this, these",
+    "Karte": "card, ticket",
+    "gilt": "is valid (gelten)",
+    "rot": "red",
+    "falsche": "wrong, false (falsch)",
+    "Datum": "date",
+    "gewählt": "chosen, selected (wählen)",
+    "Glück": "luck; happiness",
+    "freundlich": "friendly",
+    "ändert": "changes (ändern)",
+    "Gerät": "device",
+    "lächelt": "smiles (lächeln)",
+    "passiert": "happens (passieren)",
+    "Tag": "day",
+    "Gute": "good (gut)",
+    "Reise": "journey, trip"
+  }
+}

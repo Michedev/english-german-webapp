@@ -1,0 +1,11 @@
+{
+  "name": "lesezeit",
+  "version": "0.1.0",
+  "description": "Readle-style German reader: sentence translations underneath, word and phrase lookup on click",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "check": "node scripts/check-stories.mjs"
+  }
+}

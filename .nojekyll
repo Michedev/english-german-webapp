@@ -1,0 +1,2 @@
+Disables Jekyll on GitHub Pages so files starting with "_" (stories/_glossary.de-en.json,
+stories/_template.json) are published instead of silently skipped.
