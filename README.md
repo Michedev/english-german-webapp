@@ -31,13 +31,18 @@ Text size, theme and the last story read are remembered between visits.
 
 ## The library
 
-| Story | Level | Grammar it shows off |
+| Story | Level | Grammar and vocabulary it shows off |
 | --- | --- | --- |
 | Der Hund im Park | A1 | present tense, separable verbs (`ruft an`) |
+| Im Supermarkt | A1 | shopping, `man`, paying: *Zahlen Sie bar oder mit Karte?* |
 | Der verlorene Schlüssel | A2 | prepositions with dative, telling the time |
-| Die falsche Fahrkarte | A2 | reflexive `es sich bequem machen`, everyday travel vocabulary |
+| Die falsche Fahrkarte | A2 | reflexive `es sich bequem machen`, travel vocabulary |
+| Im Restaurant | A2 | ordering, `schmecken` + dative, *Zusammen oder getrennt?* |
+| Beim Arzt | A2 | appointments, `Was fehlt Ihnen?`, `nichts Schlimmes` |
 | Der Zettel im Buch | B1 | `als`-clauses, `damit`, Konjunktiv I in reported speech |
 | Nachtschicht in der Bäckerei | B1 | `wenn`/`bevor` clauses, separable reflexives, `halb drei` |
+| Die Wohnungsbesichtigung | B1 | flat hunting: Kaltmiete, Kaution, Schufa, `sich melden` |
+| Auf dem Bürgeramt | B1 | registering an address, separable verbs rejoining in subclauses |
 | Das Angebot | B2 | Konjunktiv II, passive, `ohne ... zu`, past narrative |
 
 ## Adding stories

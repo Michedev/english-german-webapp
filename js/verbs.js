@@ -47,10 +47,14 @@ export function buildIndex(data) {
   }
   for (const verb of conjugated.filter((v) => v.sep)) {
     for (const form of verb.tables.forms) {
+      const finite = form.split(' ')[0];
       add(form, verb);
       // "zieht sich an" is also reachable as "zieht an": in the sentence the
       // reflexive pronoun and adverbs sit between the verb and its prefix.
-      add(`${form.split(' ')[0]} ${verb.sep}`, verb);
+      add(`${finite} ${verb.sep}`, verb);
+      // In a subordinate clause the prefix rejoins the verb, written as one
+      // word: "Wer in Deutschland umzieht…".
+      add(`${verb.sep}${finite}`, verb);
     }
   }
   // Finally the bare finite form of anything carrying a prefix or a reflexive

@@ -84,14 +84,14 @@ async function openStory(entry) {
   dom.reader.scrollTo({ top: 0 });
 }
 
-function handleSelection({ surfaces, anchorRect, words }) {
+function handleSelection({ surfaces, anchorRect, words, clicked }) {
   const isPhrase = words.length > 1 && words[0].dataset.phraseFrom !== undefined;
   const result =
     surfaces.length === 1
       ? { ...state.dictionary.word(surfaces[0]), kind: 'word' }
       : { ...state.dictionary.selection(surfaces), kind: isPhrase ? 'phrase' : 'selection' };
 
-  const verb = findVerb(surfaces);
+  const verb = findVerb(surfaces, clicked);
 
   popover.show({
     de: surfaces.join(' '),
@@ -105,14 +105,17 @@ function handleSelection({ surfaces, anchorRect, words }) {
 /**
  * Which verb does a selection belong to?
  *
- * Order matters for separable verbs: in "zieht sich leise an" the prefix sits at
- * the end of the clause, so the finite form plus the last word ("zieht an") must
- * be tried before the bare "zieht" — otherwise anziehen (to get dressed) is
- * reported as ziehen (to pull).
+ * Order matters. In "zieht sich leise an" the prefix sits at the end of the
+ * clause, so the finite form plus the last word ("zieht an") must be tried
+ * before the bare "zieht" — otherwise anziehen (to get dressed) is reported as
+ * ziehen (to pull). After that comes the word the reader actually clicked, so
+ * that clicking "wiegen" in "muss man hier selbst wiegen" gives wiegen rather
+ * than the müssen that happens to come first in the phrase.
  */
-function findVerb(surfaces) {
+function findVerb(surfaces, clicked) {
   const candidates = [surfaces.join(' ')];
   if (surfaces.length > 1) candidates.push(`${surfaces[0]} ${surfaces.at(-1)}`);
+  if (clicked) candidates.push(clicked);
   candidates.push(...surfaces);
 
   return candidates.map(lookupVerb).find(Boolean) ?? null;

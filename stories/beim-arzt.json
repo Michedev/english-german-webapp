@@ -1,0 +1,83 @@
+{
+  "id": "beim-arzt",
+  "title": "Beim Arzt",
+  "titleEn": "At the Doctor's",
+  "level": "A2",
+  "minutes": 3,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Seit drei Tagen hat Lukas Halsschmerzen und Fieber.", "en": "Lukas has had a sore throat and a fever for three days." },
+        { "de": "Am Morgen ruft er in der Praxis an und bekommt einen Termin um elf.", "en": "In the morning he calls the practice and gets an appointment at eleven." },
+        { "de": "An der Anmeldung zeigt er seine Versichertenkarte.", "en": "At the reception desk he shows his health insurance card." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Im Wartezimmer sitzen schon fünf Leute.", "en": "Five people are already sitting in the waiting room." },
+        { "de": "Lukas blättert in einer alten Zeitschrift und wartet fast eine Stunde.", "en": "Lukas leafs through an old magazine and waits almost an hour." },
+        { "de": "Endlich ruft die Arzthelferin seinen Namen.", "en": "Finally the doctor's assistant calls his name." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "„Was fehlt Ihnen denn?“, fragt die Ärztin.", "en": "\"What's wrong with you?\" the doctor asks." },
+        { "de": "Lukas beschreibt seine Beschwerden, und sie schaut ihm in den Hals.", "en": "Lukas describes his symptoms, and she looks into his throat." },
+        { "de": "„Nichts Schlimmes“, sagt sie. „Sie brauchen Ruhe, Tee und Geduld.“", "en": "\"Nothing serious,\" she says. \"You need rest, tea and patience.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Sie schreibt ihm ein Rezept und eine Krankmeldung für drei Tage.", "en": "She writes him a prescription and a sick note for three days." },
+        { "de": "In der Apotheke neben der Praxis holt Lukas seine Medikamente.", "en": "In the pharmacy next to the practice Lukas picks up his medicine." },
+        { "de": "Zu Hause legt er sich sofort ins Bett.", "en": "At home he goes straight to bed." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "Seit drei Tagen", "en": "for three days", "note": "With seit German uses the present tense: er hat seit drei Tagen Fieber." },
+    { "de": "ruft er in der Praxis an", "en": "he calls the practice", "note": "Separable verb anrufen — an lands at the end." },
+    { "de": "An der Anmeldung", "en": "at the reception desk" },
+    { "de": "blättert in", "en": "leafs through", "note": "blättern in + Dativ." },
+    { "de": "Was fehlt Ihnen denn", "en": "what's the matter with you?", "note": "Literally \"what is missing to you\" — fehlen takes the dative." },
+    { "de": "Nichts Schlimmes", "en": "nothing serious", "note": "After nichts/etwas the adjective is capitalised and takes -es." },
+    { "de": "legt er sich sofort ins Bett", "en": "he goes straight to bed", "note": "sich ins Bett legen; ins = in das, accusative for movement." },
+    { "de": "Zu Hause", "en": "at home" }
+  ],
+
+  "glossary": {
+    "Lukas": "Lukas (first name)",
+    "Halsschmerzen": "sore throat (die Schmerzen = pain)",
+    "Fieber": "fever, temperature",
+    "Praxis": "doctor's practice, surgery",
+    "Termin": "appointment",
+    "elf": "eleven",
+    "Anmeldung": "reception desk; registration",
+    "Versichertenkarte": "health insurance card",
+    "Wartezimmer": "waiting room",
+    "Leute": "people",
+    "Zeitschrift": "magazine",
+    "fast": "almost",
+    "Endlich": "finally, at last",
+    "Arzthelferin": "doctor's assistant, receptionist",
+    "Ärztin": "doctor (female)",
+    "Arzt": "doctor",
+    "Beschwerden": "symptoms, complaints",
+    "Hals": "throat, neck",
+    "Schlimmes": "something bad, serious (schlimm)",
+    "Ruhe": "rest, quiet",
+    "Tee": "tea",
+    "Geduld": "patience",
+    "Rezept": "prescription; recipe",
+    "Krankmeldung": "sick note for the employer",
+    "Apotheke": "pharmacy, chemist's",
+    "Medikamente": "medicine, medication (das Medikament)",
+    "sofort": "immediately, straight away",
+    "Bett": "bed",
+    "Hause": "home (in zu Hause / nach Hause)",
+    "denn": "here: a softener in questions — \"then, actually\""
+  }
+}

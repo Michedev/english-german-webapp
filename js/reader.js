@@ -101,6 +101,7 @@ function renderSentence(sentence, id, dictionary, handlers) {
 function attachWordSelection(germanElement, sentenceElement, handlers) {
   let anchor = null;
   let dragging = false;
+  let clicked = null; // the single word actually pressed, inside a wider selection
 
   const wordsIn = (from, to) =>
     [...germanElement.querySelectorAll('.word')].filter((word) => {
@@ -118,6 +119,7 @@ function attachWordSelection(germanElement, sentenceElement, handlers) {
     handlers.onSelectWords({
       words,
       surfaces: words.map((word) => word.textContent),
+      clicked,
       sentence: sentenceElement,
       anchorRect: unionRect(words),
     });
@@ -127,6 +129,7 @@ function attachWordSelection(germanElement, sentenceElement, handlers) {
     const word = event.target.closest('.word');
     if (!word) return;
     event.preventDefault();
+    clicked = word.textContent;
 
     if (event.shiftKey && anchor !== null) {
       const words = wordsIn(anchor, Number(word.dataset.index));
@@ -167,6 +170,7 @@ function attachWordSelection(germanElement, sentenceElement, handlers) {
     const word = event.target.closest('.word');
     if (!word || (event.key !== 'Enter' && event.key !== ' ')) return;
     event.preventDefault();
+    clicked = word.textContent;
     const words =
       word.dataset.phraseFrom !== undefined
         ? wordsIn(Number(word.dataset.phraseFrom), Number(word.dataset.phraseTo))

@@ -1,0 +1,91 @@
+{
+  "id": "im-supermarkt",
+  "title": "Im Supermarkt",
+  "titleEn": "At the Supermarket",
+  "level": "A1",
+  "minutes": 2,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Nach der Arbeit geht Anna schnell in den Supermarkt.", "en": "After work Anna quickly goes to the supermarket." },
+        { "de": "Sie nimmt einen Einkaufswagen und zieht ihre Liste aus der Tasche.", "en": "She takes a trolley and pulls her list out of her bag." },
+        { "de": "Auf der Liste stehen Milch, Brot, Äpfel und Käse.", "en": "On the list are milk, bread, apples and cheese." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Das Obst muss man hier selbst wiegen.", "en": "Here you have to weigh the fruit yourself." },
+        { "de": "Den Käse findet Anna nicht, deshalb fragt sie einen Mitarbeiter.", "en": "Anna can't find the cheese, so she asks an employee." },
+        { "de": "„Entschuldigung, wo finde ich den Käse?“", "en": "\"Excuse me, where do I find the cheese?\"" },
+        { "de": "„Gang sieben, gleich neben der Butter“, antwortet er.", "en": "\"Aisle seven, right next to the butter,\" he answers." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "An der Kasse ist die Schlange lang.", "en": "At the checkout the queue is long." },
+        { "de": "Anna legt ihre Sachen aufs Band und packt alles schnell in den Rucksack.", "en": "Anna puts her things on the belt and quickly packs everything into her rucksack." },
+        { "de": "„Zweiundzwanzig Euro fünfzig. Zahlen Sie bar oder mit Karte?“", "en": "\"Twenty-two euros fifty. Are you paying cash or by card?\"" },
+        { "de": "„Mit Karte, bitte.“", "en": "\"By card, please.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Zu Hause merkt Anna, dass sie die Milch vergessen hat.", "en": "At home Anna notices that she has forgotten the milk." },
+        { "de": "Dabei stand sie ganz oben auf der Liste.", "en": "And yet it was right at the top of the list." },
+        { "de": "Morgen muss sie noch einmal einkaufen gehen.", "en": "Tomorrow she has to go shopping again." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "Nach der Arbeit", "en": "after work" },
+    { "de": "Auf der Liste stehen", "en": "are on the list", "note": "stehen is used for anything written down: im Buch steht…" },
+    { "de": "muss man hier selbst wiegen", "en": "you have to weigh yourself here", "note": "man = one/you in general, always with the er-form of the verb." },
+    { "de": "gleich neben", "en": "right next to" },
+    { "de": "An der Kasse", "en": "at the checkout" },
+    { "de": "aufs Band", "en": "onto the belt", "note": "aufs = auf das; movement onto something takes the accusative." },
+    { "de": "Zahlen Sie bar oder mit Karte", "en": "are you paying cash or by card?", "note": "The standard question at every German till." },
+    { "de": "Mit Karte", "en": "by card" },
+    { "de": "Zu Hause", "en": "at home", "note": "zu Hause = at home; nach Hause = going home." },
+    { "de": "ganz oben", "en": "right at the top" },
+    { "de": "noch einmal", "en": "once more, again" },
+    { "de": "einkaufen gehen", "en": "to go shopping" }
+  ],
+
+  "glossary": {
+    "Anna": "Anna (first name)",
+    "schnell": "quick, quickly",
+    "Supermarkt": "supermarket",
+    "Einkaufswagen": "shopping trolley, cart",
+    "Liste": "list",
+    "Milch": "milk",
+    "Äpfel": "apples (der Apfel)",
+    "Käse": "cheese",
+    "Obst": "fruit",
+    "selbst": "yourself, oneself",
+    "deshalb": "therefore, that's why",
+    "Mitarbeiter": "member of staff, employee",
+    "Entschuldigung": "excuse me; apology",
+    "Gang": "aisle; corridor",
+    "gleich": "right, straight away; same",
+    "Butter": "butter",
+    "Kasse": "checkout, till",
+    "Schlange": "queue, line; snake",
+    "lang": "long",
+    "Sachen": "things (die Sache)",
+    "Band": "belt, conveyor belt; ribbon",
+    "Rucksack": "rucksack, backpack",
+    "Zweiundzwanzig": "twenty-two",
+    "fünfzig": "fifty",
+    "bar": "cash",
+    "Karte": "card",
+    "Hause": "home (in zu Hause / nach Hause)",
+    "Dabei": "and yet, at the same time",
+    "ganz": "quite, completely",
+    "oben": "at the top, above",
+    "einmal": "once",
+    "einkaufen": "to shop, to do the shopping"
+  }
+}

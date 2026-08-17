@@ -1,0 +1,97 @@
+{
+  "id": "die-wohnungsbesichtigung",
+  "title": "Die Wohnungsbesichtigung",
+  "titleEn": "The Flat Viewing",
+  "level": "B1",
+  "minutes": 3,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Die Anzeige stand nur zwei Stunden online, trotzdem kommen fünfzehn Leute zur Besichtigung.", "en": "The ad was online for only two hours, and yet fifteen people come to the viewing." },
+        { "de": "Die Wohnung liegt im dritten Stock, ohne Aufzug.", "en": "The flat is on the third floor, without a lift." },
+        { "de": "Sie hat zwei Zimmer, einen schmalen Balkon und eine Küche ohne Möbel.", "en": "It has two rooms, a narrow balcony and a kitchen without furniture." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "„Die Kaltmiete beträgt siebenhundert Euro“, erklärt der Makler.", "en": "\"The rent without bills is seven hundred euros,\" the estate agent explains." },
+        { "de": "„Dazu kommen die Nebenkosten und drei Kaltmieten Kaution.“", "en": "\"On top of that come the service charges and three months' rent as a deposit.\"" },
+        { "de": "Mira rechnet im Kopf und merkt, dass es knapp wird.", "en": "Mira does the sums in her head and realises that it will be tight." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Trotzdem füllt sie den Bewerbungsbogen aus und legt ihre Unterlagen dazu.", "en": "All the same she fills in the application form and adds her documents." },
+        { "de": "Der Makler will eine Schufa-Auskunft und die letzten drei Gehaltsabrechnungen.", "en": "The agent wants a credit report and the last three payslips." },
+        { "de": "„Wir melden uns bis Freitag“, sagt er zu allen.", "en": "\"We'll be in touch by Friday,\" he says to everyone." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Am Abend schreibt Mira dem Makler noch eine freundliche E-Mail.", "en": "In the evening Mira writes the agent a friendly email as well." },
+        { "de": "Drei Tage später kommt die Absage, in einem einzigen Satz.", "en": "Three days later the rejection arrives, in a single sentence." },
+        { "de": "Mira sucht weiter, so wie alle anderen auch.", "en": "Mira keeps looking, just like everyone else." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "zur Besichtigung", "en": "to the viewing" },
+    { "de": "im dritten Stock", "en": "on the third floor", "note": "German counts from the Erdgeschoss, so this is the fourth floor in British terms." },
+    { "de": "Die Kaltmiete beträgt", "en": "the basic rent is", "note": "Kaltmiete = rent before heating and service charges; Warmmiete includes them." },
+    { "de": "Dazu kommen", "en": "on top of that come" },
+    { "de": "im Kopf", "en": "in one's head, mentally" },
+    { "de": "dass es knapp wird", "en": "that it will be tight", "note": "knapp = barely enough." },
+    { "de": "füllt sie den Bewerbungsbogen aus", "en": "she fills in the application form", "note": "Separable verb: ausfüllen." },
+    { "de": "Wir melden uns", "en": "we'll be in touch", "note": "sich melden = to get in touch; often the last thing you hear." },
+    { "de": "Drei Tage später", "en": "three days later" },
+    { "de": "sucht weiter", "en": "keeps looking", "note": "weiter + verb = to carry on doing something." },
+    { "de": "so wie alle anderen auch", "en": "just like everyone else" }
+  ],
+
+  "glossary": {
+    "Anzeige": "advertisement, listing",
+    "online": "online",
+    "trotzdem": "nevertheless, all the same",
+    "fünfzehn": "fifteen",
+    "Leute": "people",
+    "Besichtigung": "viewing",
+    "Wohnung": "flat, apartment",
+    "dritten": "third (dritte)",
+    "Stock": "floor, storey",
+    "Aufzug": "lift, elevator",
+    "Zimmer": "room(s)",
+    "schmalen": "narrow (schmal)",
+    "Balkon": "balcony",
+    "Küche": "kitchen",
+    "Möbel": "furniture",
+    "Kaltmiete": "rent excluding heating and service charges",
+    "Kaltmieten": "months' basic rent (die Kaltmiete)",
+    "siebenhundert": "seven hundred",
+    "Makler": "estate agent",
+    "Dazu": "in addition, on top of that",
+    "Nebenkosten": "service charges, extra costs",
+    "Kaution": "deposit",
+    "Mira": "Mira (first name)",
+    "Kopf": "head",
+    "knapp": "tight, barely enough",
+    "Bewerbungsbogen": "application form",
+    "Unterlagen": "documents, paperwork",
+    "Schufa-Auskunft": "Schufa report — the German credit rating landlords ask for",
+    "letzten": "last (letzte)",
+    "Gehaltsabrechnungen": "payslips (die Gehaltsabrechnung)",
+    "Freitag": "Friday",
+    "allen": "everyone (dative of alle)",
+    "Abend": "evening",
+    "freundliche": "friendly (freundlich)",
+    "E-Mail": "email",
+    "später": "later",
+    "Absage": "rejection, refusal",
+    "einzigen": "single, only (einzig)",
+    "Satz": "sentence",
+    "weiter": "further, on",
+    "anderen": "others (andere)"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "im-restaurant",
+  "title": "Im Restaurant",
+  "titleEn": "At the Restaurant",
+  "level": "A2",
+  "minutes": 3,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Für Freitagabend hat Jonas einen Tisch für zwei Personen reserviert.", "en": "Jonas has reserved a table for two for Friday evening." },
+        { "de": "Das Restaurant ist voll, aber sein Tisch am Fenster ist frei.", "en": "The restaurant is full, but his table by the window is free." },
+        { "de": "Die Kellnerin bringt die Speisekarte und fragt nach den Getränken.", "en": "The waitress brings the menu and asks about drinks." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "„Ich nehme ein stilles Wasser und einen Apfelsaft“, sagt Jonas.", "en": "\"I'll have a still water and an apple juice,\" says Jonas." },
+        { "de": "Seine Freundin Nina braucht noch einen Moment.", "en": "His girlfriend Nina needs another moment." },
+        { "de": "Dann bestellen sie: einmal Schnitzel mit Kartoffelsalat und einmal die Gemüsesuppe.", "en": "Then they order: one schnitzel with potato salad and one vegetable soup." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Das Essen kommt schnell und schmeckt ausgezeichnet.", "en": "The food comes quickly and tastes excellent." },
+        { "de": "„Hat es Ihnen geschmeckt?“, fragt die Kellnerin später.", "en": "\"Did you enjoy it?\" the waitress asks later." },
+        { "de": "„Sehr gut, danke“, antwortet Nina.", "en": "\"Very good, thank you,\" Nina answers." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "„Zusammen oder getrennt?“ — diese Frage kommt in Deutschland immer.", "en": "\"Together or separately?\" — in Germany this question always comes." },
+        { "de": "Jonas bezahlt beide Essen und gibt zwei Euro Trinkgeld.", "en": "Jonas pays for both meals and gives two euros as a tip." },
+        { "de": "Man legt das Geld nicht auf den Tisch, sondern sagt den Betrag laut.", "en": "You don't put the money on the table, you say the amount out loud instead." },
+        { "de": "Draußen ist es kalt, aber die beiden gehen noch ein Stück zu Fuß.", "en": "Outside it is cold, but the two of them still walk a bit." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "Für Freitagabend", "en": "for Friday evening" },
+    { "de": "für zwei Personen", "en": "for two people" },
+    { "de": "am Fenster", "en": "by the window" },
+    { "de": "fragt nach", "en": "asks about, asks for", "note": "fragen nach + Dativ." },
+    { "de": "Ich nehme", "en": "I'll have", "note": "The normal way to order — literally \"I take\"." },
+    { "de": "stilles Wasser", "en": "still water", "note": "The opposite is Wasser mit Kohlensäure (sparkling)." },
+    { "de": "Hat es Ihnen geschmeckt", "en": "did you enjoy the meal?", "note": "schmecken takes the dative: es schmeckt mir." },
+    { "de": "Zusammen oder getrennt", "en": "together or separately?", "note": "Asked when paying: one bill or one each." },
+    { "de": "den Betrag laut", "en": "the amount out loud", "note": "You state the total including the tip while handing over the money." },
+    { "de": "ein Stück", "en": "a bit, a short distance" },
+    { "de": "zu Fuß", "en": "on foot" }
+  ],
+
+  "glossary": {
+    "Freitagabend": "Friday evening",
+    "Jonas": "Jonas (first name)",
+    "Tisch": "table",
+    "Personen": "people (die Person)",
+    "Restaurant": "restaurant",
+    "voll": "full",
+    "Fenster": "window",
+    "frei": "free, available",
+    "Kellnerin": "waitress",
+    "Speisekarte": "menu",
+    "Getränken": "drinks (das Getränk)",
+    "stilles": "still, non-sparkling (still)",
+    "Wasser": "water",
+    "Apfelsaft": "apple juice",
+    "Freundin": "girlfriend; female friend",
+    "Nina": "Nina (first name)",
+    "Moment": "moment",
+    "Schnitzel": "schnitzel, breaded cutlet",
+    "Kartoffelsalat": "potato salad",
+    "Gemüsesuppe": "vegetable soup",
+    "Essen": "food, meal",
+    "ausgezeichnet": "excellent",
+    "Ihnen": "you (formal, dative)",
+    "später": "later",
+    "danke": "thank you",
+    "Zusammen": "together",
+    "getrennt": "separately, separate",
+    "Frage": "question",
+    "Deutschland": "Germany",
+    "beide": "both",
+    "beiden": "the two of them, both",
+    "Trinkgeld": "tip",
+    "Geld": "money",
+    "sondern": "but rather (after a negative)",
+    "Betrag": "amount, sum",
+    "laut": "loud, out loud",
+    "Draußen": "outside",
+    "kalt": "cold",
+    "Stück": "piece; a short distance",
+    "Fuß": "foot",
+    "einmal": "once; here: one portion of",
+    "Sehr": "very"
+  }
+}

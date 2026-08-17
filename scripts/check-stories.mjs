@@ -77,7 +77,10 @@ for (const entry of manifest) {
       markPhrases(tokens, phrases);
       for (const token of tokens.filter((t) => t.type === 'word')) {
         if (token.phrase) matched.add(normalize(token.phrase.de));
-        if (isLookupWorthy(token.text) && !words.has(normalize(token.text))) missing.add(token.text);
+        // A conjugated form needs no glossary line: the verb table supplies both
+        // the meaning and the paradigm.
+        const key = normalize(token.text);
+        if (isLookupWorthy(token.text) && !words.has(key) && !verbIndex.has(key)) missing.add(token.text);
       }
     }
   }

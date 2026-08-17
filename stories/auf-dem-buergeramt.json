@@ -1,0 +1,99 @@
+{
+  "id": "auf-dem-buergeramt",
+  "title": "Auf dem Bürgeramt",
+  "titleEn": "At the Citizens' Office",
+  "level": "B1",
+  "minutes": 3,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Wer in Deutschland umzieht, muss sich innerhalb von zwei Wochen anmelden.", "en": "Anyone who moves house in Germany has to register within two weeks." },
+        { "de": "Termine beim Bürgeramt sind allerdings selten wie Gold.", "en": "Appointments at the citizens' office, however, are as rare as gold." },
+        { "de": "Samuel klickt seit Tagen jeden Morgen um sieben auf die Seite der Stadt.", "en": "For days Samuel has been clicking on the city's website every morning at seven." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Heute hat er Glück: ein Termin am Donnerstag, halb neun.", "en": "Today he is lucky: an appointment on Thursday, half past eight." },
+        { "de": "Er druckt das Formular aus und füllt es schon zu Hause aus.", "en": "He prints the form out and fills it in at home in advance." },
+        { "de": "Der Vermieter hat ihm die Wohnungsgeberbestätigung geschickt — ohne sie geht gar nichts.", "en": "The landlord has sent him the confirmation of tenancy — without it nothing works at all." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Am Donnerstag sitzt Samuel pünktlich im Warteraum und hört auf seine Nummer.", "en": "On Thursday Samuel sits in the waiting area on time and listens out for his number." },
+        { "de": "Der Beamte prüft die Papiere, tippt etwas ein und stempelt zweimal.", "en": "The official checks the papers, types something in and stamps twice." },
+        { "de": "Nach sieben Minuten ist alles erledigt.", "en": "After seven minutes everything is done." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "„Die Meldebescheinigung bekommen Sie sofort“, sagt der Beamte.", "en": "\"You get the registration certificate straight away,\" the official says." },
+        { "de": "Samuel braucht das Blatt später für die Bank, für das Finanzamt und für den Arbeitgeber.", "en": "Samuel will need the sheet later for the bank, for the tax office and for his employer." },
+        { "de": "Draußen atmet er auf: In Deutschland existiert man erst richtig, wenn man angemeldet ist.", "en": "Outside he breathes a sigh of relief: in Germany you only really exist once you are registered." }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "Wer in Deutschland umzieht", "en": "anyone who moves house in Germany", "note": "wer at the start of a clause = whoever, anyone who." },
+    { "de": "muss sich innerhalb von zwei Wochen anmelden", "en": "has to register within two weeks", "note": "sich anmelden — separable and reflexive at once." },
+    { "de": "selten wie Gold", "en": "as rare as gold" },
+    { "de": "hat er Glück", "en": "he is lucky", "note": "Glück haben = to be lucky, not \"to have luck\"." },
+    { "de": "halb neun", "en": "half past eight", "note": "halb counts towards the coming hour: halb neun = 8:30." },
+    { "de": "druckt das Formular aus", "en": "prints the form out", "note": "Separable verb: ausdrucken." },
+    { "de": "füllt es schon zu Hause aus", "en": "fills it in at home in advance", "note": "Separable verb: ausfüllen." },
+    { "de": "geht gar nichts", "en": "nothing works at all" },
+    { "de": "hört auf seine Nummer", "en": "listens out for his number", "note": "hören auf + Akkusativ = to listen out for, to heed." },
+    { "de": "tippt etwas ein", "en": "types something in", "note": "Separable verb: eintippen." },
+    { "de": "ist alles erledigt", "en": "everything is done, everything is sorted" },
+    { "de": "atmet er auf", "en": "he breathes a sigh of relief", "note": "aufatmen — different from durchatmen (to take a deep breath)." },
+    { "de": "erst richtig", "en": "only really, properly only then" }
+  ],
+
+  "glossary": {
+    "Bürgeramt": "citizens' office — where you register your address",
+    "Deutschland": "Germany",
+    "Wochen": "weeks (die Woche)",
+    "Termine": "appointments (der Termin)",
+    "Termin": "appointment",
+    "allerdings": "however, mind you",
+    "selten": "rare, seldom",
+    "Gold": "gold",
+    "Samuel": "Samuel (first name)",
+    "Tagen": "days (der Tag)",
+    "sieben": "seven",
+    "Seite": "page, website; side",
+    "Stadt": "city, town",
+    "Glück": "luck; happiness",
+    "Donnerstag": "Thursday",
+    "halb": "half",
+    "neun": "nine",
+    "Formular": "form",
+    "Hause": "home (in zu Hause / nach Hause)",
+    "Vermieter": "landlord",
+    "Wohnungsgeberbestätigung": "landlord's written confirmation that you live there — required for registering",
+    "gar": "at all (gar nichts = nothing at all)",
+    "pünktlich": "on time, punctual",
+    "Warteraum": "waiting area",
+    "Nummer": "number",
+    "Beamte": "civil servant, official",
+    "Papiere": "papers, documents",
+    "zweimal": "twice",
+    "Minuten": "minutes",
+    "erledigt": "done, dealt with (erledigen)",
+    "Meldebescheinigung": "registration certificate",
+    "sofort": "immediately, straight away",
+    "Blatt": "sheet of paper; leaf",
+    "später": "later",
+    "Bank": "bank",
+    "Finanzamt": "tax office",
+    "Arbeitgeber": "employer",
+    "Draußen": "outside",
+    "erst": "only, not until",
+    "richtig": "really, properly; correct",
+    "angemeldet": "registered (anmelden)"
+  }
+}

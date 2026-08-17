@@ -19,8 +19,13 @@ export const PERSONS = [
   { key: 'sie', label: 'sie/Sie', reflexive: 'sich' },
 ];
 
-/** atmen → atmest, öffnen → öffnet: a consonant cluster needs a linking -e-. */
-const needsLinkingE = (stem) => /[dt]$/.test(stem) || /[^aeiouäöühmnlr][mn]$/.test(stem);
+/**
+ * atmen → atmest, öffnen → öffnet: a consonant cluster needs a linking -e-.
+ * The h is only silent after a vowel (wohnen → du wohnst, ahnen → du ahnst);
+ * in rechnen it is part of the cluster, so rechnen → du rechnest.
+ */
+const needsLinkingE = (stem) =>
+  /[dt]$/.test(stem) || (/[^aeiouäöümnlr][mn]$/.test(stem) && !/[aeiouäöü]h[mn]$/.test(stem));
 
 /** heißen → du heißt: an s-sound already contains the -s- of the ending. */
 const isSibilant = (stem) => /[sßxz]$/.test(stem);

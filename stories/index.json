@@ -10,6 +10,14 @@
       "summary": "Tim finds a dog without an owner on a Saturday morning."
     },
     {
+      "id": "im-supermarkt",
+      "file": "im-supermarkt.json",
+      "title": "Im Supermarkt",
+      "level": "A1",
+      "minutes": 2,
+      "summary": "Shopping list, the cheese aisle, and paying at the till."
+    },
+    {
       "id": "der-verlorene-schluessel",
       "file": "der-verlorene-schluessel.json",
       "title": "Der verlorene Schlüssel",
@@ -26,6 +34,22 @@
       "summary": "Marek's ticket to Hamburg is valid — but for the wrong day."
     },
     {
+      "id": "im-restaurant",
+      "file": "im-restaurant.json",
+      "title": "Im Restaurant",
+      "level": "A2",
+      "minutes": 3,
+      "summary": "Ordering, the bill, and \"zusammen oder getrennt?\""
+    },
+    {
+      "id": "beim-arzt",
+      "file": "beim-arzt.json",
+      "title": "Beim Arzt",
+      "level": "A2",
+      "minutes": 3,
+      "summary": "An appointment, the waiting room, and a sick note."
+    },
+    {
       "id": "der-zettel-im-buch",
       "file": "der-zettel-im-buch.json",
       "title": "Der Zettel im Buch",
@@ -40,6 +64,22 @@
       "level": "B1",
       "minutes": 3,
       "summary": "Yusuf's working day starts at half past two in the morning."
+    },
+    {
+      "id": "die-wohnungsbesichtigung",
+      "file": "die-wohnungsbesichtigung.json",
+      "title": "Die Wohnungsbesichtigung",
+      "level": "B1",
+      "minutes": 3,
+      "summary": "Fifteen applicants, a deposit, and the Schufa report."
+    },
+    {
+      "id": "auf-dem-buergeramt",
+      "file": "auf-dem-buergeramt.json",
+      "title": "Auf dem Bürgeramt",
+      "level": "B1",
+      "minutes": 3,
+      "summary": "Hunting for an appointment to register a new address."
     },
     {
       "id": "das-angebot",
