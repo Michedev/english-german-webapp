@@ -1,0 +1,130 @@
+{
+  "id": "der-witzeabend",
+  "title": "Der Witzeabend",
+  "titleEn": "Joke Night",
+  "level": "B1",
+  "minutes": 4,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Freitagabend bei Lena in der Küche: drei Pizzakartons, vier Flaschen Bier und eine Regel.", "en": "Friday evening at Lena's place in the kitchen: three pizza boxes, four bottles of beer and one rule." },
+        { "de": "Lena: „Jeder erzählt einen Witz. Wer keinen hat, räumt nachher auf.“", "en": "Lena: \"Everyone tells a joke. Whoever hasn't got one tidies up afterwards.\"" },
+        { "de": "Paul: „Das ist unfair, ich kann keine Witze.“", "en": "Paul: \"That's unfair, I'm no good at jokes.\"" },
+        { "de": "Ben: „Dann fange ich an.“", "en": "Ben: \"Then I'll start.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Ben: „Was macht ein Clown im Büro?“", "en": "Ben: \"What does a clown do in the office?\"" },
+        { "de": "Lena: „Keine Ahnung.“", "en": "Lena: \"No idea.\"" },
+        { "de": "Ben: „Faxen.“", "en": "Ben: \"Faxes.\"" },
+        { "de": "Paul stöhnt, Lena lacht trotzdem.", "en": "Paul groans, Lena laughs anyway." },
+        { "de": "Lena: „Das ist ein Kalauer.“", "en": "Lena: \"That's a groaner.\"" },
+        { "de": "Ben: „Kalauer sind die höchste Form der Kunst.“", "en": "Ben: \"Groaners are the highest form of art.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Paul: „Gut, einen habe ich doch: Treffen sich zwei Jäger.“", "en": "Paul: \"All right, I do have one after all: two hunters meet.\"" },
+        { "de": "Paul: „Beide tot.“", "en": "Paul: \"Both dead.\"" },
+        { "de": "Es dauert zwei Sekunden, dann versteht Lena den Witz und lacht laut.", "en": "It takes two seconds, then Lena gets the joke and laughs out loud." },
+        { "de": "Lena: „Das ist böse. Aber gut.“", "en": "Lena: \"That's mean. But good.\"" },
+        { "de": "Ben: „Der Witz ist so alt wie meine Großmutter.“", "en": "Ben: \"That joke is as old as my grandmother.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Lena: „Warum können Bienen so gut rechnen?“", "en": "Lena: \"Why are bees so good at sums?\"" },
+        { "de": "Ben: „Warum denn?“", "en": "Ben: \"Why, then?\"" },
+        { "de": "Lena: „Weil sie summieren.“", "en": "Lena: \"Because they add up.\"" },
+        { "de": "Ben: „Und was ist orange und wandert über die Berge?“", "en": "Ben: \"And what is orange and hikes over the mountains?\"" },
+        { "de": "Paul: „Eine Mandarine?“", "en": "Paul: \"A tangerine?\"" },
+        { "de": "Ben: „Eine Wanderine.“", "en": "Ben: \"A hike-erine.\"" },
+        { "de": "Paul schaut ihn lange an und sagt kein Wort.", "en": "Paul looks at him for a long time and doesn't say a word." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Lena: „Paul, du hast nicht gelacht. Du räumst auf.“", "en": "Lena: \"Paul, you didn't laugh. You're tidying up.\"" },
+        { "de": "Paul: „Ich lache innerlich.“", "en": "Paul: \"I'm laughing on the inside.\"" },
+        { "de": "Um halb eins fährt er nach Hause, mit leeren Kartons im Müll und einem sauberen Tisch.", "en": "At half past twelve he goes home, with the empty boxes in the bin and a clean table." },
+        { "de": "Um kurz nach drei schreibt er in die Gruppe: „Wanderine. Jetzt habe ich ihn.“", "en": "Just after three he writes in the group chat: \"Hike-erine. Now I get it.\"" },
+        { "de": "Ben antwortet nach einer Minute: „Schlaf gut, Paul.“", "en": "Ben answers a minute later: \"Sleep well, Paul.\"" }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "räumt nachher auf", "en": "tidies up afterwards", "note": "aufräumen, separable: the auf goes to the end of the clause." },
+    { "de": "ich kann keine Witze", "en": "I'm no good at jokes", "note": "können + a noun (no verb) means \"to be able to do\" it: ich kann kein Deutsch." },
+    { "de": "fange ich an", "en": "I'll start", "note": "anfangen, separable — ich fange an, du fängst an." },
+    { "de": "Keine Ahnung", "en": "no idea", "note": "The standard answer to the set-up line of a joke." },
+    { "de": "Was macht ein Clown im Büro", "en": "what does a clown do in the office?", "note": "The answer is Faxen: the plural of das Fax, but Faxen machen = to fool about. A clown in an office does both." },
+    { "de": "die höchste Form der Kunst", "en": "the highest form of art" },
+    { "de": "Treffen sich zwei Jäger", "en": "two hunters meet", "note": "Jokes often start with the verb: Treffen sich zwei… Here treffen means both \"to meet\" and \"to hit\" — which is why both hunters are dead." },
+    { "de": "Weil sie summieren", "en": "because they add up", "note": "summen = to buzz, summieren = to sum up. Bees do the first, mathematicians the second." },
+    { "de": "über die Berge", "en": "over the mountains" },
+    { "de": "Eine Wanderine", "en": "a \"hike-erine\"", "note": "Invented word: Mandarine (tangerine) with wandern (to hike) pushed into it. Nobody laughs the first time." },
+    { "de": "kein Wort", "en": "not a word" },
+    { "de": "Um halb eins", "en": "at half past twelve", "note": "Trap for English speakers: halb eins = half an hour TO one, i.e. 12:30 — never 1:30." },
+    { "de": "nach Hause", "en": "home (going home)", "note": "nach Hause = going home; zu Hause = at home." },
+    { "de": "Schlaf gut", "en": "sleep well" }
+  ],
+
+  "glossary": {
+    "Freitagabend": "Friday evening",
+    "Lena": "Lena (first name)",
+    "Paul": "Paul (first name)",
+    "Ben": "Ben (first name)",
+    "Küche": "kitchen",
+    "Pizzakartons": "pizza boxes (der Pizzakarton)",
+    "Flaschen": "bottles (die Flasche)",
+    "Bier": "beer",
+    "Regel": "rule",
+    "Jeder": "everyone, each one",
+    "Witz": "joke",
+    "Witze": "jokes (der Witz)",
+    "keinen": "no, not any (kein, masc. accusative)",
+    "keine": "no, not any",
+    "nachher": "afterwards, later",
+    "unfair": "unfair",
+    "Clown": "clown",
+    "Büro": "office",
+    "Ahnung": "idea, notion",
+    "Faxen": "faxes (das Fax) — also: silly antics, in Faxen machen",
+    "trotzdem": "nevertheless, all the same",
+    "Kalauer": "groan-worthy pun, corny joke",
+    "höchste": "highest (hoch)",
+    "Form": "form",
+    "Kunst": "art",
+    "Jäger": "hunter(s)",
+    "Beide": "both",
+    "tot": "dead",
+    "Sekunden": "seconds (die Sekunde)",
+    "böse": "mean, wicked; angry",
+    "laut": "loud, loudly",
+    "meine": "my",
+    "Großmutter": "grandmother",
+    "Bienen": "bees (die Biene)",
+    "orange": "orange (colour)",
+    "Berge": "mountains (der Berg)",
+    "Mandarine": "tangerine, mandarin",
+    "Wanderine": "invented word — Mandarine crossed with wandern (to hike)",
+    "lange": "for a long time",
+    "Wort": "word",
+    "gelacht": "laughed (lachen)",
+    "innerlich": "inwardly, on the inside",
+    "halb": "half; halb eins = 12:30",
+    "Hause": "home (in nach Hause / zu Hause)",
+    "leeren": "empty (leer)",
+    "Kartons": "boxes (der Karton)",
+    "Müll": "rubbish, bin",
+    "sauberen": "clean (sauber)",
+    "Tisch": "table",
+    "kurz": "short; shortly, briefly",
+    "Gruppe": "group; group chat",
+    "Schlaf": "sleep! (schlafen, imperative)"
+  }
+}

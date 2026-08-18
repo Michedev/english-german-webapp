@@ -1,0 +1,125 @@
+{
+  "id": "zwanzig-minuten-zu-spaet",
+  "title": "Zwanzig Minuten zu spät",
+  "titleEn": "Twenty Minutes Late",
+  "level": "A2",
+  "minutes": 3,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Lena und Ben sitzen schon im Café, als Paul endlich um die Ecke kommt.", "en": "Lena and Ben are already sitting in the café when Paul finally comes round the corner." },
+        { "de": "Lena: „Na endlich! Wir haben schon überlegt, ob wir dich als vermisst melden.“", "en": "Lena: \"Finally! We were already considering reporting you missing.\"" },
+        { "de": "Paul: „Die Bahn. Ich schwöre.“", "en": "Paul: \"The train. I swear.\"" },
+        { "de": "Ben: „Paul, du wohnst zwei Straßen weiter. Du gehst zu Fuß.“", "en": "Ben: \"Paul, you live two streets away. You come on foot.\"" },
+        { "de": "Paul: „Dann eben: die Straße war voll.“", "en": "Paul: \"Fine then: the street was full.\"" },
+        { "de": "Lena lacht so laut, dass sich am Nebentisch zwei Leute umdrehen.", "en": "Lena laughs so loudly that two people at the next table turn round." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Kellnerin: „Was darf ich Ihnen bringen?“", "en": "Waitress: \"What can I get you?\"" },
+        { "de": "Lena: „Einen Cappuccino, bitte.“", "en": "Lena: \"A cappuccino, please.\"" },
+        { "de": "Ben: „Für mich einen Tee und ein Stück Käsekuchen.“", "en": "Ben: \"A tea for me and a piece of cheesecake.\"" },
+        { "de": "Paul: „Ich esse ab jetzt nur noch gesund.“", "en": "Paul: \"From now on I only eat healthily.\"" },
+        { "de": "Paul: „Also: auch ein Stück Käsekuchen.“", "en": "Paul: \"So: a piece of cheesecake as well.\"" },
+        { "de": "Ben: „Das ist Kuchen, Paul.“", "en": "Ben: \"That is cake, Paul.\"" },
+        { "de": "Paul: „Käse ist Milch, Milch ist gesund. Ganz einfache Mathematik.“", "en": "Paul: \"Cheese is milk, milk is healthy. Very simple maths.\"" },
+        { "de": "Lena grinst und sagt nichts.", "en": "Lena grins and says nothing." }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Lena: „Ben, was ist mit deinen Haaren passiert?“", "en": "Lena: \"Ben, what happened to your hair?\"" },
+        { "de": "Ben: „Neuer Friseur. Zehn Euro.“", "en": "Ben: \"New barber. Ten euros.\"" },
+        { "de": "Paul: „Man sieht jeden einzelnen Euro.“", "en": "Paul: \"You can see every single euro.\"" },
+        { "de": "Ben wirft eine Serviette nach ihm und trifft nur den Zucker.", "en": "Ben throws a napkin at him and only hits the sugar." },
+        { "de": "Ben: „Nächstes Mal gehst du mit und bezahlst.“", "en": "Ben: \"Next time you come along and pay.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Lena: „Sagt mal, machen wir am Samstag etwas zusammen?“", "en": "Lena: \"Tell me, are we doing something together on Saturday?\"" },
+        { "de": "Ben: „Kino? Oder wir kochen bei mir.“", "en": "Ben: \"Cinema? Or we cook at my place.\"" },
+        { "de": "Paul: „Kochen. Aber ich bringe nur den Nachtisch mit.“", "en": "Paul: \"Cooking. But I'm only bringing the dessert.\"" },
+        { "de": "Lena: „Du bringst gar nichts mit, du kommst ja nicht mal pünktlich.“", "en": "Lena: \"You're not bringing anything, you don't even arrive on time.\"" },
+        { "de": "Paul: „Am Samstag bin ich der Erste. Ich schwöre.“", "en": "Paul: \"On Saturday I'll be the first one there. I swear.\"" },
+        { "de": "Ben und Lena schauen sich an und lachen.", "en": "Ben and Lena look at each other and laugh." },
+        { "de": "Am Ende zahlt der, der zu spät gekommen ist.", "en": "In the end the one who arrived late pays." },
+        { "de": "Paul: „Seit wann ist das eine Regel?“", "en": "Paul: \"Since when is that a rule?\"" },
+        { "de": "Lena: „Seit heute.“", "en": "Lena: \"Since today.\"" }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "um die Ecke", "en": "round the corner" },
+    { "de": "Na endlich", "en": "at last!, finally!", "note": "Na + adverb is the standard opener for gentle mockery." },
+    { "de": "als vermisst melden", "en": "to report missing", "note": "What you say when someone is late — the joke is deadpan." },
+    { "de": "Ich schwöre", "en": "I swear", "note": "Used in speech exactly like the English \"I swear\", usually when nobody believes you." },
+    { "de": "zu Fuß", "en": "on foot" },
+    { "de": "Dann eben", "en": "fine then, all right then", "note": "eben = it is what it is; a shrug in one syllable." },
+    { "de": "am Nebentisch", "en": "at the next table" },
+    { "de": "Was darf ich Ihnen bringen", "en": "what can I get you?" },
+    { "de": "ab jetzt", "en": "from now on" },
+    { "de": "nur noch", "en": "only … from now on, nothing but" },
+    { "de": "Nächstes Mal", "en": "next time" },
+    { "de": "Sagt mal", "en": "tell me, say…", "note": "mal softens the question; sagt is the ihr-imperative." },
+    { "de": "gar nichts", "en": "nothing at all" },
+    { "de": "nicht mal", "en": "not even", "note": "Spoken short form of nicht einmal." },
+    { "de": "Am Ende", "en": "in the end" },
+    { "de": "zu spät", "en": "too late" },
+    { "de": "Seit wann", "en": "since when" }
+  ],
+
+  "glossary": {
+    "Lena": "Lena (first name)",
+    "Ben": "Ben (first name)",
+    "Paul": "Paul (first name)",
+    "Café": "café",
+    "Ecke": "corner",
+    "vermisst": "missing",
+    "Bahn": "train, railway",
+    "Straßen": "streets (die Straße)",
+    "Straße": "street",
+    "weiter": "further, farther on",
+    "Fuß": "foot",
+    "eben": "just; simply, that's how it is",
+    "voll": "full, packed",
+    "laut": "loud, loudly",
+    "Nebentisch": "next table",
+    "Kellnerin": "waitress",
+    "Cappuccino": "cappuccino",
+    "Tee": "tea",
+    "Stück": "piece",
+    "Käsekuchen": "cheesecake",
+    "ab": "from (a point in time); off",
+    "gesund": "healthy, healthily",
+    "Also": "so, well then",
+    "Kuchen": "cake",
+    "Käse": "cheese",
+    "Milch": "milk",
+    "Ganz": "quite, completely",
+    "einfache": "simple (einfach)",
+    "Mathematik": "maths, mathematics",
+    "deinen": "your (informal, dative plural)",
+    "Haaren": "hair (die Haare, dative)",
+    "Neuer": "new (neu)",
+    "Friseur": "hairdresser, barber",
+    "einzelnen": "single, individual",
+    "Serviette": "napkin, serviette",
+    "Zucker": "sugar",
+    "Nächstes": "next (nächst-)",
+    "Mal": "time, occasion",
+    "Samstag": "Saturday",
+    "Kino": "cinema",
+    "Nachtisch": "dessert",
+    "gar": "at all (with a negative)",
+    "pünktlich": "punctual, on time",
+    "Erste": "first one",
+    "Ende": "end",
+    "spät": "late",
+    "Regel": "rule"
+  }
+}

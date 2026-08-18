@@ -1,0 +1,152 @@
+{
+  "id": "der-ganze-einkauf",
+  "title": "Der ganze Einkauf",
+  "titleEn": "The Whole Shop, Line by Line",
+  "level": "A2",
+  "minutes": 4,
+  "author": "Original text",
+
+  "paragraphs": [
+    {
+      "sentences": [
+        { "de": "Samstagvormittag, kurz vor elf: Anna schiebt einen Einkaufswagen durch die Tür.", "en": "Saturday morning, just before eleven: Anna pushes a trolley through the door." },
+        { "de": "Zuerst geht sie zum Leergutautomaten und stellt neun Flaschen einzeln in die Maschine.", "en": "First she goes to the bottle-return machine and puts nine bottles into it one by one." },
+        { "de": "Der Automat brummt und gibt ihr einen Bon: zwei Euro fünfundzwanzig Pfand.", "en": "The machine hums and gives her a voucher: two euros twenty-five in deposit." },
+        { "de": "Anna: „Damit ist der Kaffee schon fast bezahlt.“", "en": "Anna: \"That almost pays for the coffee already.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Im Gang vier findet sie das Mehl nicht und fragt einen Mitarbeiter.", "en": "In aisle four she can't find the flour and asks a member of staff." },
+        { "de": "Anna: „Entschuldigung, wo steht die Hefe?“", "en": "Anna: \"Excuse me, where is the yeast?\"" },
+        { "de": "Mitarbeiter: „Die Hefe ist im Kühlregal, gleich neben der Butter.“", "en": "Employee: \"The yeast is in the chilled section, right next to the butter.\"" },
+        { "de": "Anna: „Und das Mehl?“", "en": "Anna: \"And the flour?\"" },
+        { "de": "Mitarbeiter: „Gang sechs, ganz unten. Soll ich es Ihnen zeigen?“", "en": "Employee: \"Aisle six, right at the bottom. Shall I show you?\"" },
+        { "de": "Anna: „Nein danke, das finde ich schon.“", "en": "Anna: \"No thanks, I'll find it.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "An der Käsetheke wartet Anna, bis sie an der Reihe ist.", "en": "At the cheese counter Anna waits until it is her turn." },
+        { "de": "Verkäuferin: „Der Nächste bitte! Was darf es sein?“", "en": "Shop assistant: \"Next please! What can I get you?\"" },
+        { "de": "Anna: „Ich hätte gern zweihundert Gramm Gouda, bitte am Stück.“", "en": "Anna: \"I'd like two hundred grams of Gouda, in one piece please.\"" },
+        { "de": "Verkäuferin: „Es sind zweihundertzwanzig Gramm geworden. Darf es etwas mehr sein?“", "en": "Shop assistant: \"It's come to two hundred and twenty grams. Is a bit more all right?\"" },
+        { "de": "Anna: „Ja, das passt.“", "en": "Anna: \"Yes, that's fine.\"" },
+        { "de": "Verkäuferin: „Sonst noch etwas?“", "en": "Shop assistant: \"Anything else?\"" },
+        { "de": "Anna: „Nein, das war's. Danke.“", "en": "Anna: \"No, that's all. Thank you.\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "An der Kasse ist die Schlange lang, aber sie geht schnell.", "en": "At the checkout the queue is long, but it moves quickly." },
+        { "de": "Kassiererin: „Sammeln Sie Punkte?“", "en": "Cashier: \"Do you collect points?\"" },
+        { "de": "Anna: „Nein, danke.“", "en": "Anna: \"No, thank you.\"" },
+        { "de": "Kassiererin: „Brauchen Sie eine Tüte?“", "en": "Cashier: \"Do you need a bag?\"" },
+        { "de": "Anna: „Nein, ich habe eine Tasche dabei. Und ich habe noch einen Pfandbon.“", "en": "Anna: \"No, I've got a bag with me. And I still have a deposit voucher.\"" },
+        { "de": "Kassiererin: „Dann macht das einundzwanzig Euro fünfundfünfzig. Bar oder mit Karte?“", "en": "Cashier: \"Then that comes to twenty-one euros fifty-five. Cash or by card?\"" },
+        { "de": "Anna: „Mit Karte, bitte.“", "en": "Anna: \"By card, please.\"" },
+        { "de": "Kassiererin: „Bitte auf das Gerät legen. — Es hat geklappt. Möchten Sie den Kassenbon?“", "en": "Cashier: \"Please place it on the reader. — It worked. Would you like the receipt?\"" },
+        { "de": "Anna: „Ja, gern. Vielen Dank!“", "en": "Anna: \"Yes, please. Thank you very much!\"" },
+        { "de": "Kassiererin: „Ich danke Ihnen. Einen schönen Tag noch!“", "en": "Cashier: \"Thank you. Have a nice day!\"" }
+      ]
+    },
+    {
+      "sentences": [
+        { "de": "Anna packt alles hastig in den Rucksack, denn hinter ihr wartet schon der nächste Kunde.", "en": "Anna packs everything into her rucksack in a hurry, because the next customer is already waiting behind her." },
+        { "de": "An deutschen Kassen geht es schnell; in Ruhe einpacken kann man am Tisch daneben.", "en": "German checkouts are fast; you can pack in peace at the table next to them." },
+        { "de": "Erst auf dem Parkplatz fällt ihr ein, was ganz oben auf der Liste stand.", "en": "Only in the car park does it occur to her what was right at the top of the list." },
+        { "de": "Anna: „Die Milch. Natürlich die Milch.“", "en": "Anna: \"The milk. Of course, the milk.\"" }
+      ]
+    }
+  ],
+
+  "phrases": [
+    { "de": "kurz vor elf", "en": "just before eleven" },
+    { "de": "ganz unten", "en": "right at the bottom" },
+    { "de": "an der Reihe", "en": "next, whose turn it is", "note": "Ich bin an der Reihe = it's my turn. At a counter you also hear: Wer ist dran?" },
+    { "de": "Der Nächste bitte", "en": "next, please", "note": "How every German counter calls the next customer." },
+    { "de": "Was darf es sein", "en": "what can I get you?", "note": "The standard opener at a counter — literally \"what may it be\"." },
+    { "de": "Ich hätte gern", "en": "I'd like", "note": "Konjunktiv II of haben: the polite way to order anything." },
+    { "de": "am Stück", "en": "in one piece", "note": "The opposite of geschnitten (sliced) at the cheese or meat counter." },
+    { "de": "Darf es etwas mehr sein", "en": "is a bit more all right?", "note": "Asked when the weight comes out over what you ordered." },
+    { "de": "Sonst noch etwas", "en": "anything else?" },
+    { "de": "das war's", "en": "that's all, that's it", "note": "war's = war es. The normal way to close an order." },
+    { "de": "Sammeln Sie Punkte", "en": "do you collect points?", "note": "About a loyalty card — asked at almost every till." },
+    { "de": "macht das", "en": "that comes to", "note": "Das macht 21,55 — the usual way of naming the total." },
+    { "de": "Bar oder mit Karte", "en": "cash or by card?" },
+    { "de": "Einen schönen Tag noch", "en": "have a nice day", "note": "noch = for the rest of the day; the standard goodbye in a shop." },
+    { "de": "in Ruhe", "en": "at your leisure, in peace" },
+    { "de": "fällt ihr ein", "en": "occurs to her", "note": "einfallen takes the dative: mir fällt der Name nicht ein." },
+    { "de": "ganz oben", "en": "right at the top" }
+  ],
+
+  "glossary": {
+    "Anna": "Anna (first name)",
+    "Samstagvormittag": "Saturday morning",
+    "kurz": "short; shortly, briefly",
+    "elf": "eleven",
+    "Einkaufswagen": "shopping trolley, cart",
+    "durch": "through",
+    "Leergutautomaten": "bottle-return machine (der Leergutautomat)",
+    "Flaschen": "bottles (die Flasche)",
+    "einzeln": "one by one, individually",
+    "Maschine": "machine",
+    "Automat": "machine, automat",
+    "Bon": "voucher, slip, receipt",
+    "fünfundzwanzig": "twenty-five",
+    "Pfand": "deposit (on bottles and cans)",
+    "Damit": "with that; so that",
+    "Gang": "aisle; corridor",
+    "Mehl": "flour",
+    "Mitarbeiter": "member of staff, employee",
+    "Entschuldigung": "excuse me; apology",
+    "Hefe": "yeast",
+    "Kühlregal": "chilled shelf, refrigerated section",
+    "gleich": "right, straight away; same",
+    "Butter": "butter",
+    "unten": "at the bottom, below",
+    "Käsetheke": "cheese counter",
+    "Reihe": "row; turn (an der Reihe)",
+    "Verkäuferin": "shop assistant (female)",
+    "Nächste": "next one (der Nächste)",
+    "zweihundert": "two hundred",
+    "Gramm": "gram(s)",
+    "Gouda": "Gouda (cheese)",
+    "Stück": "piece",
+    "zweihundertzwanzig": "two hundred and twenty",
+    "geworden": "become, turned out (werden)",
+    "Sonst": "otherwise, apart from that",
+    "war's": "was it (das war's = that's all)",
+    "Kasse": "checkout, till",
+    "Kassen": "checkouts, tills (die Kasse)",
+    "Kassiererin": "cashier (female)",
+    "Schlange": "queue, line; snake",
+    "lang": "long",
+    "Punkte": "points (der Punkt)",
+    "Tüte": "bag, carrier bag",
+    "dabei": "with me, along; at the same time",
+    "Pfandbon": "deposit voucher from the bottle machine",
+    "einundzwanzig": "twenty-one",
+    "fünfundfünfzig": "fifty-five",
+    "Bar": "cash",
+    "Karte": "card",
+    "Gerät": "device; here: the card reader",
+    "Kassenbon": "till receipt",
+    "Vielen": "many (in vielen Dank = many thanks)",
+    "Dank": "thanks",
+    "schönen": "nice, beautiful (schön, accusative)",
+    "hastig": "hurried, in a rush",
+    "Rucksack": "rucksack, backpack",
+    "nächste": "next",
+    "Kunde": "customer",
+    "deutschen": "German (deutsch, inflected)",
+    "Ruhe": "calm, quiet",
+    "Tisch": "table",
+    "daneben": "next to it, beside it",
+    "Parkplatz": "car park; parking space",
+    "Erst": "only, not until",
+    "Liste": "list",
+    "oben": "at the top, above",
+    "Milch": "milk"
+  }
+}

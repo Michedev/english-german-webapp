@@ -18,6 +18,22 @@
       "summary": "Shopping list, the cheese aisle, and paying at the till."
     },
     {
+      "id": "der-ganze-einkauf",
+      "file": "der-ganze-einkauf.json",
+      "title": "Der ganze Einkauf",
+      "level": "A2",
+      "minutes": 4,
+      "summary": "The whole shop as dialogue: bottle deposit, cheese counter, checkout."
+    },
+    {
+      "id": "zwanzig-minuten-zu-spaet",
+      "file": "zwanzig-minuten-zu-spaet.json",
+      "title": "Zwanzig Minuten zu spät",
+      "level": "A2",
+      "minutes": 3,
+      "summary": "Three friends, one café, and Paul's excuse for being late."
+    },
+    {
       "id": "der-verlorene-schluessel",
       "file": "der-verlorene-schluessel.json",
       "title": "Der verlorene Schlüssel",
@@ -48,6 +64,22 @@
       "level": "A2",
       "minutes": 3,
       "summary": "An appointment, the waiting room, and a sick note."
+    },
+    {
+      "id": "ein-abend-im-restaurant",
+      "file": "ein-abend-im-restaurant.json",
+      "title": "Ein Abend im Restaurant",
+      "level": "B1",
+      "minutes": 5,
+      "summary": "Reserving, ordering, sending a cold soup back, and tipping."
+    },
+    {
+      "id": "der-witzeabend",
+      "file": "der-witzeabend.json",
+      "title": "Der Witzeabend",
+      "level": "B1",
+      "minutes": 4,
+      "summary": "Pizza, beer, and four German jokes — the puns explained."
     },
     {
       "id": "der-zettel-im-buch",
